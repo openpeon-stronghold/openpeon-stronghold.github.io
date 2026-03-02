@@ -1,0 +1,122 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-rat",
+  "display_name": "The Rat (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/rt_add_player.wav",
+          "label": "Gasping",
+          "sha256": "67367327166b05f7a6c7b61ac68277070f6a7c6d4f3c4fdae9b0fec00eabf966"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/rt_taunt_03.wav",
+          "label": "Plans have been made",
+          "sha256": "9c560e0084eb4163a8626500a1f35a2a7c22af88551d9e30c8d3a0f0dd9956b6"
+        },
+        {
+          "file": "sounds/rt_taunt_05.wav",
+          "label": "Forces of De Puce",
+          "sha256": "75a41e65a533985b78b5791f953d9b705605c7721d817a61431b899d41cc4263"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/rt_vict_01.wav",
+          "label": "Ratty wins again",
+          "sha256": "4f060b5d6b6fbcd7397d99b7ace42a3356ddb92c72502559b8f446b3aaf1da1b"
+        },
+        {
+          "file": "sounds/rt_vict_02.wav",
+          "label": "Plans worked perfectly",
+          "sha256": "f8a8bf58ddaaf0d970fd06920e4195d574bf0b97f51a29fdca3cb6b02c2278a7"
+        },
+        {
+          "file": "sounds/rt_vict_04.wav",
+          "label": "Glorious army triumphs",
+          "sha256": "c26c044c7d54d9656af2aacb4d824e2e934ab30fea8915f68faa3fe307ca064e"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/rt_anger_01.wav",
+          "label": "Troops didn't follow the plan",
+          "sha256": "e012c63eecf3164777f37ca3abeddbd973d7abe3cf836a8ba29d2b10d1ef99cc"
+        },
+        {
+          "file": "sounds/rt_anger_03.wav",
+          "label": "Surrounded by idiots",
+          "sha256": "89810d838b28f72d7b99663f5a05861c8acd0781a4ec29febe6d13e99ab9e4b5"
+        },
+        {
+          "file": "sounds/rt_anger_04.wav",
+          "label": "World has gone crazier",
+          "sha256": "e2a11fdd7c873dda07c1d355b9a714106f940c777066025c0c84c1fb98a391df"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/rt_plead_01.wav",
+          "label": "Don't hurt me",
+          "sha256": "082a39a6dd16c006f6dad91afd5fb57d8caf78edc3627742337fcb0410f0437b"
+        },
+        {
+          "file": "sounds/rt_plead_04.wav",
+          "label": "No need to panic, Ratty",
+          "sha256": "f0ad4f2f0b7b2db167c0438fd9736d29e6b9f38e616d8fdbcb5257dd3d10fdbb"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/rt_anger_02.wav",
+          "label": "Oh bother, lost again",
+          "sha256": "4ab0059da4867729a8b97f4241c99854a5305dded0393013d355fd0251b54f87"
+        },
+        {
+          "file": "sounds/rt_plead_02.wav",
+          "label": "It wasn't me",
+          "sha256": "ce92af73f717c2eb33bcf26ca94dfb35192bfd38fffec65e65dc463cb15227b1"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/rt_taunt_01.wav",
+          "label": "Impudent upstart",
+          "sha256": "f1d5eb59e3ab2383f8c152f68cab2d6c89baa815f6957b8951ebcb992af8cda7"
+        },
+        {
+          "file": "sounds/rt_taunt_07.wav",
+          "label": "No use grovelling now",
+          "sha256": "69e381e502a0d6cbdfe9b34543169e12df7107c575583ea03b1371259743ac4a"
+        },
+        {
+          "file": "sounds/rt_kick_player.wav",
+          "label": "Screaming",
+          "sha256": "2cc51c6fc369fd6344ddca2e9f994db408ea5abdb41afa7c4a05b4704150c5d9"
+        }
+      ]
+    }
+  }
+}

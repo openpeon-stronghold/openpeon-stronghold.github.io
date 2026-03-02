@@ -1,0 +1,127 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-sheriff",
+  "display_name": "The Sheriff (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/sh_add_player_01.wav",
+          "label": "Ah, revenge",
+          "sha256": "8f8e8f4999eedf98b5ee5fdb91f05047b54544cbcf8096f3aa4464b0e8015e15"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/sh_willattack_01.wav",
+          "label": "If I must",
+          "sha256": "21e5f58e3c217093abb1b0cb9cf092276c2b05fc85d4d6e376748710c53f4aca"
+        },
+        {
+          "file": "sounds/sh_sent_01.wav",
+          "label": "Generosity will kill me",
+          "sha256": "04a9433ee501f5409614fd20376e9b25c8876c39ebe1f9cb9f340ef73c7cf629"
+        },
+        {
+          "file": "sounds/sh_siege_01.wav",
+          "label": "Another fool loses his home",
+          "sha256": "643dcad2d95ff9bb56aab9bbdf8d1802f2917da11fd2919da1b9eaf927c2b5c5"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/sh_vict_01.wav",
+          "label": "Sweet victory",
+          "sha256": "fc9d6e1ad1cd92b3159810cf442c212e5157693e755b072e87af90f1e0842391"
+        },
+        {
+          "file": "sounds/sh_boast_01.wav",
+          "label": "Watch and learn",
+          "sha256": "37b0bb56da8919ad1807b85f74089ec7015577c52b75ba09fe7917441f791c7a"
+        },
+        {
+          "file": "sounds/sh_vict_04.wav",
+          "label": "Gets his ascending orders",
+          "sha256": "b588c03605ab29595eddcfcaa0a265b3a85bb7a4eacd9d6b292c33a2be8fafbf"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/sh_anger_01.wav",
+          "label": "Blast and thunder",
+          "sha256": "81831bf0286d8565716d880b8d6f3fb1b7b9a3bdc751e4dd581592a2a16cf052"
+        },
+        {
+          "file": "sounds/sh_anger_02.wav",
+          "label": "That's my castle",
+          "sha256": "070f6612a1b93599815953c4709814bff0962ef89d6aceea91012f69a057685c"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/sh_help_01.wav",
+          "label": "Help, surrounded",
+          "sha256": "e7da6abae7c8d27646b096bc089cc1da94a90b07b1fdbbacc81c4b8963de8b03"
+        },
+        {
+          "file": "sounds/sh_req_01.wav",
+          "label": "Couldn't send me some goods",
+          "sha256": "ec6fe1c865d447af44ee4bd4722baa6147c807c0d608f52e9d008de414eee76c"
+        },
+        {
+          "file": "sounds/sh_nervous_02.wav",
+          "label": "Fetch the tax collector",
+          "sha256": "c32733beb8f33a694be717a6def1be63d52b5cc3ee81a2f7cabd3525e7b03685"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/sh_notsent_01.wav",
+          "label": "Not Father Christmas",
+          "sha256": "065c62952362853d9ed494de020daa659ab36b8c9f6b705bc90bc7c01919a098"
+        },
+        {
+          "file": "sounds/sh_nohelp_01.wav",
+          "label": "Do I look like I can help",
+          "sha256": "ea957af23f6430d6374569f8acc7578a969c4918b686edcdd9e9312e280a8010"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/sh_noattack_01.wav",
+          "label": "What a great idea, I don't think so",
+          "sha256": "492777eae4f5e0af59f86131c9fc771f2a26ae22fe1f57c4ef74dcb4b75995b5"
+        },
+        {
+          "file": "sounds/sh_noattack_02.wav",
+          "label": "Do your own dirty work",
+          "sha256": "99e8f3207c00297ef31dbbb26acac96083a2fbd39e160ce0ae39d9367ea3f3d9"
+        },
+        {
+          "file": "sounds/sh_kick_player_01.wav",
+          "label": "Idiot",
+          "sha256": "0602013002d34eeb128126f686952659b0fd5c75e060afb8b90fd0f2a8644c08"
+        }
+      ]
+    }
+  }
+}

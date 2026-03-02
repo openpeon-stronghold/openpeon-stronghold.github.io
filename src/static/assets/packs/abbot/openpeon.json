@@ -1,0 +1,112 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-abbot",
+  "display_name": "The Abbot (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ab_add_player_01.wav",
+          "label": "Praise be",
+          "sha256": "6afe4c1708fb6401a77e17844a1b5289ed2dfa8151de16fa2a0b2e35f149559e"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ab_willattack_01.wav",
+          "label": "Agreed",
+          "sha256": "cd2b164253ce8734d66b6d91f5050eb7c2de795a47e7848d52545f148dfefaf1"
+        },
+        {
+          "file": "sounds/ab_siege_01.wav",
+          "label": "Begin the siege",
+          "sha256": "cdbef4faa44c67b9e0f4f179c812afeccbf06bfc582135b6b5e88bab53a37788"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ab_vict_01.wav",
+          "label": "Victory for me",
+          "sha256": "b4e68f2fc643659462ed8fc5f3b40cfc8470ed8528209b41a7536cd10d0604e2"
+        },
+        {
+          "file": "sounds/ab_boast_01.wav",
+          "label": "Watch and learn",
+          "sha256": "11d6ac3bfd4c9e50e64a24cd9f4747368bf15b2cd9b991b5af028542d92e9343"
+        },
+        {
+          "file": "sounds/ab_vict_04.wav",
+          "label": "Going to rule this land",
+          "sha256": "f9f08bd7d9625d70c8c46a729a117b1b8b0ae7dd53cc5e42ded28928bdfa5706"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ab_anger_01.wav",
+          "label": "My troops fail me",
+          "sha256": "4eb3ed88027c52a5cd94a942355959ea0eab2938178c6a398ddf78a0e893ae7a"
+        },
+        {
+          "file": "sounds/ab_anger_02.wav",
+          "label": "You will pay for that",
+          "sha256": "e0bc5690560404c680f6e0ad92d90a1a568c79ca17bde26186b297530bb4fa99"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/ab_help_01.wav",
+          "label": "Send help",
+          "sha256": "acc17271610c18afccfe803cd68fae170d78429b8f8102210401cfe8f82791b6"
+        },
+        {
+          "file": "sounds/ab_req_01.wav",
+          "label": "Short of materials",
+          "sha256": "9d9b07d42c93e6cccf5afc44414640906f6e19eff0cce12fb65661660bf4c097"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ab_notsent_01.wav",
+          "label": "Not made of gold",
+          "sha256": "cb85cf58f2f53ea875a0d2ed8278b9de7a1572defca2a5e3daad04c355cd0f70"
+        },
+        {
+          "file": "sounds/ab_nohelp_01.wav",
+          "label": "We will pray for you",
+          "sha256": "846f90b98a9d8173efbafacd0e6ce5a8959aeca9b9ab18f4b6bb6325fbde2ddd"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ab_noattack_02.wav",
+          "label": "Brothers are meditating",
+          "sha256": "11a57f96a296747a04e042ba60cc93de2e613331c16282f089768e9d24153f82"
+        },
+        {
+          "file": "sounds/ab_kick_player_01.wav",
+          "label": "No!",
+          "sha256": "e4c15bce743d15a91403128bccd38d8f6fc4c1f55b7ff730b1d8ef5b194d1b0d"
+        }
+      ]
+    }
+  }
+}

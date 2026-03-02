@@ -1,0 +1,13 @@
+{
+  "name": "openpeon-stronghold",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "poops",
+    "build": "poops -b"
+  },
+  "devDependencies": {
+    "poops": "^1.1.0",
+    "sass-path-resolver": "^1.0.2"
+  }
+}

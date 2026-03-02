@@ -1,0 +1,127 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-richard",
+  "display_name": "Richard the Lionheart (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ri_add_player_01.wav",
+          "label": "Well done",
+          "sha256": "ded1c6986ad40cbac1fdbfc17593caf28baca4dd5479fedba7e752a9da72745a"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ri_willattack_01.wav",
+          "label": "I march",
+          "sha256": "c9e9aad5cae4d3f3c91cd85b994bd68089bcc380a986bf93d6398542f00f5dd6"
+        },
+        {
+          "file": "sounds/ri_sent_01.wav",
+          "label": "Already dispatched",
+          "sha256": "0f5b1475f0b0d4b9c8cb6ae40515ac95c38cd96ee7d05981c8cbb5517b1eca6d"
+        },
+        {
+          "file": "sounds/ri_siege_01.wav",
+          "label": "Men in great heart",
+          "sha256": "850087197ddac9045296d4634d798324fb2272f7eb2cffa4ef650c312e04edc4"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ri_vict_01.wav",
+          "label": "The lion roars",
+          "sha256": "817c3e921943490334d450e20e0ab9107c91a13370f6215c43a42aeb6ce0456b"
+        },
+        {
+          "file": "sounds/ri_vict_04.wav",
+          "label": "Sound the fanfare",
+          "sha256": "e9b440a399270384f1ccfbf2f9805b562e3515537e12f88b45054e85c1cba709"
+        },
+        {
+          "file": "sounds/ri_boast_01.wav",
+          "label": "Another false lord fallen",
+          "sha256": "f0f56998dc8d9220d13012365d1b6a5f33e519171d980f8cf40731ed22a20eaa"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ri_anger_01.wav",
+          "label": "You fight like a man",
+          "sha256": "5d448e1520da535c947cac8a58ca255f4c4644dec971856cdf972b5d58fff615"
+        },
+        {
+          "file": "sounds/ri_anger_02.wav",
+          "label": "How about a fair fight",
+          "sha256": "45ce071b6691ec3296b39c01a766f5775a27f1d01f6a7223d07b12a8a64131c6"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/ri_help_01.wav",
+          "label": "Royal standard in peril",
+          "sha256": "8c9b82859c7461ad7eaf249d2382ba45c62aa1fe62e003ea98e0636c966747c7"
+        },
+        {
+          "file": "sounds/ri_nervous_02.wav",
+          "label": "A king must cower",
+          "sha256": "7bcad7b17208fe6ab3fb6d8c6bd2fd5e308c8b10bf4a1ad6ef227e5a114a7454"
+        },
+        {
+          "file": "sounds/ri_req_01.wav",
+          "label": "In short supply",
+          "sha256": "da859aad6db1f6ba1e4cb8459cede2f3be239b90d0086c1619d9ffedcee0c988"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ri_notsent_01.wav",
+          "label": "Cannot send goods",
+          "sha256": "b04a3b841271d8e78c80ec39579bae7bcd0ed5041c40bf19571782b87578a37b"
+        },
+        {
+          "file": "sounds/ri_nohelp_01.wav",
+          "label": "These are lean times",
+          "sha256": "a3580e997adcd6809288c19da390a8514c0ffcf92e723343d35da5c7992efe97"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ri_noattack_01.wav",
+          "label": "None but a fool",
+          "sha256": "6eac5f49ef04f8a94a57ff9f586ee5528dd9cc01566028810881f25fbf656dc7"
+        },
+        {
+          "file": "sounds/ri_noattack_02.wav",
+          "label": "More important plans",
+          "sha256": "ccecd153e51623097d1ecc02cec8823a91a0f8f8babc223be20c0ad57b2441b3"
+        },
+        {
+          "file": "sounds/ri_kick_player_01.wav",
+          "label": "Afraid?",
+          "sha256": "fd964ddac9d74af608ccc1f84dfded44015ea92cd6744b76f1664d74d8d0e06b"
+        }
+      ]
+    }
+  }
+}

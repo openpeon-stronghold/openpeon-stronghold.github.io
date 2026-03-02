@@ -1,0 +1,64 @@
+{
+  "scripts": [{
+    "in": "src/scripts/main.js",
+    "out": "dist/scripts/main.js",
+    "options": {
+      "sourcemap": true,
+      "minify": true,
+      "justMinified": false,
+      "format": "iife",
+      "target": "es2019"
+    }
+  }],
+  "styles": [{
+    "in": "src/styles/main.scss",
+    "out": "dist/styles/main.css",
+    "options": {
+      "sourcemap": true,
+      "minify": true,
+      "justMinified": false
+    }
+  }],
+  "copy": [{
+    "in": "src/static/assets",
+    "out": "dist"
+  }],
+  "markup": {
+    "in": "src/markup",
+    "out": "dist",
+    "options": {
+      "site": {
+        "title": "Stronghold Crusader Packs — PeonPing",
+        "description": "16 lords. Every terminal event. Narrated.",
+        "url": "https://openpeon-stronghold.github.io",
+        "lords": [
+          { "slug": "abbot",     "display": "The Abbot",         "frameBg": "assets/hud/lord-frame-bg/0_0img546.webp" },
+          { "slug": "caliph",    "display": "The Caliph",         "frameBg": "assets/hud/lord-frame-bg/0_0img547.webp" },
+          { "slug": "emir",      "display": "The Emir",           "frameBg": "assets/hud/lord-frame-bg/0_0img548.webp" },
+          { "slug": "frederick", "display": "Emperor Frederick",  "frameBg": "assets/hud/lord-frame-bg/0_0img549.webp" },
+          { "slug": "marshal",   "display": "The Marshal",        "frameBg": "assets/hud/lord-frame-bg/0_0img550.webp" },
+          { "slug": "nizar",     "display": "Nizar",              "frameBg": "assets/hud/lord-frame-bg/0_0img551.webp" },
+          { "slug": "philip",    "display": "King Philip",        "frameBg": "assets/hud/lord-frame-bg/0_0img552.webp" },
+          { "slug": "pig",       "display": "The Pig",            "frameBg": "assets/hud/lord-frame-bg/0_0img553.webp" },
+          { "slug": "rat",       "display": "The Rat",            "frameBg": "assets/hud/lord-frame-bg/0_0img554.webp" },
+          { "slug": "richard",   "display": "King Richard",       "frameBg": "assets/hud/lord-frame-bg/0_0img546.webp" },
+          { "slug": "saladin",   "display": "Saladin",            "frameBg": "assets/hud/lord-frame-bg/0_0img547.webp" },
+          { "slug": "sheriff",   "display": "The Sheriff",        "frameBg": "assets/hud/lord-frame-bg/0_0img548.webp" },
+          { "slug": "snake",     "display": "The Snake",          "frameBg": "assets/hud/lord-frame-bg/0_0img549.webp" },
+          { "slug": "sultan",    "display": "The Sultan",         "frameBg": "assets/hud/lord-frame-bg/0_0img550.webp" },
+          { "slug": "wazir",     "display": "The Wazir",          "frameBg": "assets/hud/lord-frame-bg/0_0img551.webp" },
+          { "slug": "wolf",      "display": "The Wolf",           "frameBg": "assets/hud/lord-frame-bg/0_0img552.webp" }
+        ]
+      },
+      "includePaths": ["_layouts"]
+    }
+  },
+  "banner": "/* {{ name }} v{{ version }} | {{ homepage }} | {{ license }} License */",
+  "serve": {
+    "port": 4040,
+    "base": "/dist"
+  },
+  "livereload": true,
+  "watch": ["src"],
+  "includePaths": ["node_modules"]
+}

@@ -1,0 +1,32 @@
+.hud-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  min-width: 200px;
+  padding: 0 28px;
+  border: none;
+  background-image: url('../assets/hud/button/button1.webp');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+  image-rendering: pixelated;
+  transition: filter .1s;
+}
+.hud-btn:hover {
+  background-image: url('../assets/hud/button/button1_hover-press.webp');
+  filter: brightness(1.15);
+}
+.hud-btn-alt {
+  background-image: url('../assets/hud/button/button5.webp');
+  color: var(--gold-bright);
+}
+.hud-btn-alt:hover {
+  background-image: url('../assets/hud/button/button5_hover-press.webp');
+}

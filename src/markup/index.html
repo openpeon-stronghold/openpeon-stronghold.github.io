@@ -1,0 +1,104 @@
+{% extends "default.html" %}
+{% block content %}
+
+<!-- ── HERO ───────────────────────────────────────────────────── -->
+<section class="hero">
+  <img class="hero-fresco hero-fresco-left"  src="assets/images/fresco-1.webp" alt="" loading="lazy">
+  <img class="hero-fresco hero-fresco-right" src="assets/images/fresco-2.webp" alt="" loading="lazy">
+
+  <h1>Stronghold Crusader<span>Voice Packs</span></h1>
+  <p>16 lords. Every terminal event. Narrated.</p>
+
+  <div class="hero-btns">
+    <a class="hud-btn" href="https://github.com/PeonPing/peon-ping">Install PeonPing</a>
+    <a class="hud-btn hud-btn-alt" href="#lords">Browse Lords ↓</a>
+  </div>
+
+  <div class="install-bar">
+    <p>Pick your lord — then run:</p>
+    <div class="install-cmd">
+      <span id="cmd-text">peon packs install rat</span>
+      <button class="copy-btn" id="bar-copy" title="Copy command"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ── LORDS GALLERY ──────────────────────────────────────────── -->
+<div class="section-head" id="lords">
+  <h2>Choose Your Advisor</h2>
+  <p>Click a lord to preview voicelines and install</p>
+</div>
+<div class="grid">
+  {% for lord in site.lords %}
+  <div class="card"
+       data-slug="{{ lord.slug }}"
+       data-display="{{ lord.display }}"
+       data-frame-bg="{{ lord.frameBg }}">
+    <div class="portrait-wrap">
+      <div class="portrait-bg" style="background-image:url('{{ lord.frameBg }}')"></div>
+      <img class="portrait-img"
+           src="https://raw.githubusercontent.com/openpeon-stronghold/{{ lord.slug }}/v1.1.0/icon.png"
+           alt="{{ lord.display }}"
+           loading="lazy"
+           onerror="this.style.opacity=0">
+      <div class="portrait-frame" style="background-image:url('assets/hud/lord-framers/0_0img540.webp')"></div>
+    </div>
+    <div class="card-title">{{ lord.display }}</div>
+    <div class="card-slug">{{ lord.slug }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- ── FOOTER ─────────────────────────────────────────────────── -->
+<footer>
+  <div>Sounds from <strong>Stronghold Crusader</strong> used under fair use &mdash; not affiliated with Firefly Studios.</div>
+  <div>
+    <a href="https://github.com/openpeon-stronghold">GitHub Org</a> &nbsp;&middot;&nbsp;
+    <a href="https://github.com/PeonPing/peon-ping">PeonPing</a> &nbsp;&middot;&nbsp;
+    <a href="https://openpeon.com">OpenPeon</a>
+  </div>
+</footer>
+
+<!-- ── MODAL ──────────────────────────────────────────────────── -->
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal-panel" id="modal-panel">
+    <div id="modal-bg-anim"></div>
+    <button class="modal-close" id="modal-close" title="Close (ESC)"></button>
+    <div class="modal-overlay">
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── MODAL BODY TEMPLATE ────────────────────────────────────── -->
+<template id="modal-tpl">
+  <div class="modal-head">
+    <div class="modal-portrait-wrap">
+      <div class="portrait-bg"></div>
+      <img class="modal-portrait-img" alt="" loading="eager" onerror="this.style.opacity=0">
+      <div class="portrait-frame" style="background-image:url('assets/hud/lord-framers/0_0img540.webp')"></div>
+    </div>
+    <div class="modal-lord-name"></div>
+    <div class="modal-slug"></div>
+    <div class="modal-install">
+      <span class="modal-cmd-text"></span>
+      <button class="copy-btn modal-copy-btn" title="Copy"></button>
+    </div>
+    <a class="modal-gh" href="#" target="_blank" rel="noopener">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15
+        -.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87
+        .51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+        0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82
+        2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+        .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016
+        8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      View on GitHub
+    </a>
+  </div>
+  <div class="modal-sounds-section"></div>
+</template>
+
+{% endblock %}

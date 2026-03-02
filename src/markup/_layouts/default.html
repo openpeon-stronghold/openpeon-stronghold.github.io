@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link id="favicon" rel="icon" type="image/png" href="">
+  <link rel="stylesheet" href="{{ relativePathPrefix }}styles/main.min.css">
+  {% if livereload_port %}<script src="http://localhost:{{ livereload_port }}/livereload.js"></script>{% endif %}
+</head>
+<body>
+
+<div id="loading-screen">
+  <div class="loading-inner">
+    <div class="loading-title">Marshalling the lords&hellip;</div>
+    <div class="loading-bar-wrap">
+      <div class="loading-bar-fill"></div>
+    </div>
+  </div>
+</div>
+
+{% block content %}{% endblock %}
+
+<script src="{{ relativePathPrefix }}scripts/main.min.js" defer></script>
+</body>
+</html>

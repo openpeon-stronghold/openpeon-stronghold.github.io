@@ -1,0 +1,117 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-caliph",
+  "display_name": "The Caliph (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ca_add_player_01.wav",
+          "label": "Infidel!",
+          "sha256": "bbba9508c6619ff3b0b949b9494881712c83ed57e22f5d6d37c08b8dca2e0936"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ca_willattack_01.wav",
+          "label": "Yes!",
+          "sha256": "a193e6f27b4572b2bf14c629655c60ae38bcc40cf56b320648c0ce548aeacd9a"
+        },
+        {
+          "file": "sounds/ca_sent_01.wav",
+          "label": "I have sent your goods",
+          "sha256": "3dc03064db678e665e8d12a0db45049e8ca8094098084462d32aeabd1cfb28ee"
+        },
+        {
+          "file": "sounds/ca_siege_01.wav",
+          "label": "Watch and learn",
+          "sha256": "aa7a59ba2ef11b4240ced4bf1e8641d84b0416c8d85992a1c3c45f7f2bea2820"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ca_vict_01.wav",
+          "label": "You are weak, infidel",
+          "sha256": "273c849082d6eb9c8ef69e3918f1856c02c0f57959d0f5f1b11fdb0a999d6621"
+        },
+        {
+          "file": "sounds/ca_boast_01.wav",
+          "label": "Dispose of all foes",
+          "sha256": "766ab373fbe888057e033f7852b1daeebf957844074117d225228e966d9e25b2"
+        },
+        {
+          "file": "sounds/ca_vict_04.wav",
+          "label": "They all fall before me",
+          "sha256": "1c0c50b136912977d80c060462fc9a4084b955b6f4553a7957b1e52418184303"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ca_anger_01.wav",
+          "label": "You test my patience",
+          "sha256": "a0fdf881faf6eadc5a79abad65454ae3d3ee926aa1bcb193c3aff7eceb68f3e9"
+        },
+        {
+          "file": "sounds/ca_anger_02.wav",
+          "label": "You dare invade my lands",
+          "sha256": "4d8915afcfdbe1d1c27a5fb5c2b2feb5d2b1d7a9b524d3387ae6f499bda76f03"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/ca_help_01.wav",
+          "label": "Send your fastest man",
+          "sha256": "c96e1b8acf509731eeb95d1f9b962f9318067cd085125199cb686513e9823da5"
+        },
+        {
+          "file": "sounds/ca_req_01.wav",
+          "label": "I need goods",
+          "sha256": "004ea0f0532793d11aee36749167a157cacfe1adaf9fb442c0b2008d27643fd4"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ca_notsent_01.wav",
+          "label": "You ask the impossible",
+          "sha256": "dcfe72d553ca0c029f89650da60a7fd27cbca7aadfa41337706f7c83be47f292"
+        },
+        {
+          "file": "sounds/ca_nohelp_02.wav",
+          "label": "Will not waste my men",
+          "sha256": "1dbb158e0ddd5f2e5628065b5f24784f57f0044d69c28a51b9f60a330d9f4cc6"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ca_noattack_01.wav",
+          "label": "Do you take me for a fool",
+          "sha256": "1cd1756c99d526c5a425b95b7c272af0a2874b43e85f7b64f7cc3168a116be35"
+        },
+        {
+          "file": "sounds/ca_kick_player_01.wav",
+          "label": "Infidel",
+          "sha256": "72f9d07c86d1e157783e27b5a404a74043de32a333118d66fc4c788df2c0637a"
+        }
+      ]
+    }
+  }
+}

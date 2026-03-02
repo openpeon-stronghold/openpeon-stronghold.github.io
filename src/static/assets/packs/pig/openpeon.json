@@ -1,0 +1,122 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-pig",
+  "display_name": "The Pig (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/pg_add_player.wav",
+          "label": "Maniacal laughing",
+          "sha256": "5e5f09659d0d2e692efd05f09edae20ae73e3269a498303eb8985c014bd96080"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/pg_taunt_04.wav",
+          "label": "Pig is coming to town",
+          "sha256": "665380c8b523ba471cda50dd58cd00fca76dfdb3c6748be2368b8208d65e8821"
+        },
+        {
+          "file": "sounds/pg_taunt_08.wav",
+          "label": "Pig's men are almost here",
+          "sha256": "9ceb2b12aab26d3a2a06c5ca4677c2f51ef261685acc270052dd6a4a095d5b4d"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/pg_vict_01.wav",
+          "label": "No one beats the pig",
+          "sha256": "69679b1fec6aec0738a8eba95d509f1cb9d331819f969e0df7d84e40eecccfd4"
+        },
+        {
+          "file": "sounds/pg_vict_03.wav",
+          "label": "Pink wins again",
+          "sha256": "7b63d7e83ba8e76d5336007b31b316317526319796c533115e9ce0aa8e086b07"
+        },
+        {
+          "file": "sounds/pg_vict_04.wav",
+          "label": "Skewer you alive",
+          "sha256": "e97b11a2a34af7ff61e0e7ea2dcf5eb1f4d3a8211f0719dec86e6d7fada7d6da"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/pg_anger_01.wav",
+          "label": "You'll pay",
+          "sha256": "40ac24fa45d0985d736defda1a8622644a996f506b0b084353a254d0e29fc8a5"
+        },
+        {
+          "file": "sounds/pg_anger_02.wav",
+          "label": "I WILL KILL YOU",
+          "sha256": "b5e757b0089984f7b07ec7e08974126534ce431d23c85869a36559d7a05770ce"
+        },
+        {
+          "file": "sounds/pg_anger_03.wav",
+          "label": "This doesn't happen to the Pig",
+          "sha256": "35413e12acde1b39c346cfa5d7232c9abceca7bc31467d6c7f82d1c16ce26090"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/pg_plead_02.wav",
+          "label": "I want to live",
+          "sha256": "63c0ac56c8532db53424592a8aae192e2abfc9ed8a2b1666395fd64a3cd9ae73"
+        },
+        {
+          "file": "sounds/pg_plead_03.wav",
+          "label": "Pig in trouble",
+          "sha256": "fce2b52c3c830d54ec5285ad871e0cf3425a1abe67ef13be04aa9df775dd601e"
+        },
+        {
+          "file": "sounds/pg_plead_04.wav",
+          "label": "What's happening to me",
+          "sha256": "c8f37ce516f5e5b6bebb8a5c50ffc9af8a331a66751e66cac25c9ac215c2dd84"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/pg_anger_04.wav",
+          "label": "Smash you to pieces",
+          "sha256": "e59e944991ee50077339626a01f99b0e5f91899694fbeb86aab13717f71fcf24"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/pg_taunt_06.wav",
+          "label": "Clip your wings",
+          "sha256": "6ad07df1bc09cca082366b655aa5de0cea098001909de211af713af19f4a790e"
+        },
+        {
+          "file": "sounds/pg_taunt_01.wav",
+          "label": "Coming to kill you",
+          "sha256": "33e3cb4d99f7bd39a4c907e74ff065a002ad3221a18f13198ee19644ff2cb9d5"
+        },
+        {
+          "file": "sounds/pg_kick_player.wav",
+          "label": "Screaming",
+          "sha256": "5daee26f325fd0750c52abd14f9ce0aecc08cf4df1c756a7e1f5659e0dfdb4d4"
+        }
+      ]
+    }
+  }
+}

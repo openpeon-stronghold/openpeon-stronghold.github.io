@@ -1,0 +1,40 @@
+.install-bar {
+  margin-top: 28px;
+  text-align: center;
+}
+.install-bar p {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 7px;
+}
+.install-cmd {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 7px 14px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--gold);
+  max-width: 100%;
+}
+
+.copy-btn {
+  flex-shrink: 0;
+  width: 22px;
+  height: 41px;
+  border: none;
+  padding: 0;
+  background: none;
+  background-image: url('../assets/hud/key/key_normal.webp');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  transition: filter .1s;
+  cursor: url('../assets/cursor/hand.cur'), pointer;
+  vertical-align: middle;
+}
+.copy-btn:hover        { background-image: url('../assets/hud/key/key_highlight.webp'); filter: brightness(1.3); }
+.copy-btn.flash        { filter: brightness(2.2); }

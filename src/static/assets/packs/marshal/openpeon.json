@@ -1,0 +1,122 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-marshal",
+  "display_name": "The Marshal (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ma_add_player_01.wav",
+          "label": "More hell!",
+          "sha256": "1ff9f054fa72fa153f756d97e1e9d858f77e57acc045cf168944780d924f2b8e"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ma_willattack_01.wav",
+          "label": "Absolutely",
+          "sha256": "bd83da5a92935598a9d68e4f518feff4e62030b1d0f32df4ec889d596ff973d9"
+        },
+        {
+          "file": "sounds/ma_sent_01.wav",
+          "label": "Be a pleasure, sending now",
+          "sha256": "f0da964511cb0d1c009e8c668fb84a85913a035f95d71d00bf7c6a338be94088"
+        },
+        {
+          "file": "sounds/ma_siege_01.wav",
+          "label": "Off we go, siege time",
+          "sha256": "4d49264ad51a2f61c6fa3a15d86a54e4f43d40853dac1449d3dce1219f04884d"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ma_vict_01.wav",
+          "label": "Carried the day",
+          "sha256": "85a0d938105fb62b985e71a944d2e1d0d01400f9c61b09b3d1334c526d54891a"
+        },
+        {
+          "file": "sounds/ma_boast_01.wav",
+          "label": "Rah, chalked up another one",
+          "sha256": "d408c4e43fb1b4af031c3662dbefbb7c19da6a6d15c193dae077a892876210ce"
+        },
+        {
+          "file": "sounds/ma_vict_02.wav",
+          "label": "Classic Guerrilla Tactics",
+          "sha256": "790e40ec1a931303e782825ba45a8cca0f0660db48eeda1639404ccbb4e94a19"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ma_anger_01.wav",
+          "label": "Bad tactics on my part",
+          "sha256": "7c5cb66b81f23d359dfc094d3e9756ff58a41ad53bf94d3f3cfc255929327aa3"
+        },
+        {
+          "file": "sounds/ma_anger_02.wav",
+          "label": "Castle under attack",
+          "sha256": "8380d63fc1da7da7369512703f5c6cd82d481c010621653ba2d7143462717f55"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/ma_help_01.wav",
+          "label": "Sticky situation",
+          "sha256": "e3f1c0b1ca682806aa7b1279bdeba44263a919b88a95487431efc4aaf8d2fe4e"
+        },
+        {
+          "file": "sounds/ma_req_01.wav",
+          "label": "Short on the basics",
+          "sha256": "4b236d4ffac2f1e6986264b67d32d2c538970a70e447822dde630ffa2d24b501"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ma_notsent_01.wav",
+          "label": "Can't send, sorry",
+          "sha256": "8294ab08ebbfc87bedd77e4f810978f72d4bed0333fcb02cbd97ddebfd4da95e"
+        },
+        {
+          "file": "sounds/ma_nohelp_01.wav",
+          "label": "Can't help",
+          "sha256": "048e12a2201f3030d7cf74388b322ab6112d5fbb1bd26e09800bc0b91527c19e"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ma_noattack_01.wav",
+          "label": "Too dicey",
+          "sha256": "f625876d746a9f1645c72c36290b493ad73bf15acc2fa8716b8e3c3c003e822f"
+        },
+        {
+          "file": "sounds/ma_noattack_02.wav",
+          "label": "Request denied, old man",
+          "sha256": "c6d89225abbe8fa5cd946d29739e30cad3fed2312cbc5fa56844451b79000781"
+        },
+        {
+          "file": "sounds/ma_kick_player_01.wav",
+          "label": "Bother!",
+          "sha256": "efa92d7737009e1ce4f4c3602fb9e7480e6dc490bc95ad50b56d1f6a5dd4976d"
+        }
+      ]
+    }
+  }
+}

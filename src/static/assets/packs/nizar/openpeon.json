@@ -1,0 +1,117 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-nizar",
+  "display_name": "Nizar (Stronghold Crusader)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Marko Jevic",
+    "github": "koyev"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ni_add_player_01.wav",
+          "label": "Take care",
+          "sha256": "e6db785ec2894dab17810a65b4ce821d41b2d0ffb4be4affe3ceeeddff0f294a"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ni_willattack_01.wav",
+          "label": "Yes",
+          "sha256": "e0d0b62dcd068d27538ee0fb757f76b5088b120c2c4ea7c2fe00ab3c7030327f"
+        },
+        {
+          "file": "sounds/ni_sent_01.wav",
+          "label": "Generous this time",
+          "sha256": "3e580c5193e9e098a2765c95e72dde32b3017cacb2e9f8563fcae5505ff5f8a1"
+        },
+        {
+          "file": "sounds/ni_siege_01.wav",
+          "label": "Black mist will engulf",
+          "sha256": "4a9ab46c00fcb06875e2a9f4b417c652bd60136c0c5b90718c9c1b33f281bbff"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ni_vict_04.wav",
+          "label": "I have silenced another",
+          "sha256": "4afb5e2fe2b66ceb27a125df0dd1ea22490c82f78f1521d4ec5a1956134a80ec"
+        },
+        {
+          "file": "sounds/ni_boast_01.wav",
+          "label": "One less enemy",
+          "sha256": "cb1ef017360ccb784c7c12901e8d91c448b21a63a42c346f34f045e0abc1e2ce"
+        },
+        {
+          "file": "sounds/ni_vict_02.wav",
+          "label": "Watch your castle fall",
+          "sha256": "078420d6ceaf41e9905a782b1e9ca9ce73b4e12077c6add6bbea1103c6d8f499"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ni_anger_01.wav",
+          "label": "Do not escape your fate",
+          "sha256": "7196c7c17475c8632077b18e49f4e5126e772e0e922e2f3187c100bd95c5500d"
+        },
+        {
+          "file": "sounds/ni_anger_02.wav",
+          "label": "We will grow another foot",
+          "sha256": "1d9d89aeb4a9388c3262fc9bdbfa4ce038ca356cbd2665cdccb994f4f78f68f5"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/ni_help_01.wav",
+          "label": "Help me now",
+          "sha256": "ba23e137166de01bc781cd788220faa5468ce5897042d7fee0fdc9aff6e45c50"
+        },
+        {
+          "file": "sounds/ni_req_01.wav",
+          "label": "I need supplies",
+          "sha256": "215dc21fa9b1e51797d2b2289538df0d6e1088e2359cb6c2c0be4ecd30a3d7aa"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ni_notsent_01.wav",
+          "label": "Last crumbs from my plate",
+          "sha256": "82538d6e193d1f48799b19711d66a635ea6cf75c23c13e0d6787222b143f6fc1"
+        },
+        {
+          "file": "sounds/ni_noattack_01.wav",
+          "label": "Will not throw away lives",
+          "sha256": "5abf60a1424e8ecf71dad165422645f7689e8016b818e7d5f956b958b1d97c51"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ni_nervous_01.wav",
+          "label": "Watch your back, fool",
+          "sha256": "591614d1e7bb70654e00ac648d58335dbe19289e57db609bdb2a74a2afee8c9d"
+        },
+        {
+          "file": "sounds/ni_kick_player_01.wav",
+          "label": "Gone",
+          "sha256": "ac6849acc32e43dd982f91ade746c749b6967e759d7952919f73297080620dfe"
+        }
+      ]
+    }
+  }
+}

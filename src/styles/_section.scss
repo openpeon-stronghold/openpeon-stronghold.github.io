@@ -1,0 +1,16 @@
+.section-head {
+  text-align: center;
+  padding: 32px 24px 16px;
+}
+.section-head h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.07em;
+  text-shadow: 0 0 24px rgba(201,168,76,0.2);
+}
+.section-head p {
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  margin-top: 4px;
+}

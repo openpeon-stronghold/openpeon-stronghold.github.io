@@ -1,0 +1,61 @@
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: border-color .2s, box-shadow .2s;
+  position: relative;
+  cursor: url('../assets/cursor/hand.cur'), pointer;
+}
+.card:hover {
+  border-color: var(--gold-dim);
+  box-shadow: 0 0 18px rgba(201,168,76,0.11);
+}
+.card:hover .portrait-img {
+  filter: drop-shadow(0 0 6px rgba(201,168,76,0.5));
+}
+
+.portrait-wrap {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 10px;
+}
+.portrait-bg {
+  position: absolute;
+  inset: 0;
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+}
+.portrait-img {
+  position: absolute;
+  top: 12px; left: 12px;
+  width: 72px; height: 72px;
+  image-rendering: pixelated;
+  object-fit: cover;
+  transition: filter .2s;
+}
+.portrait-frame {
+  position: absolute;
+  inset: 0;
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-align: center;
+}
+.card-slug {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  font-family: var(--mono);
+  margin-top: 2px;
+  text-align: center;
+}
