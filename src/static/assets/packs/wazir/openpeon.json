@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-wazir",
+  "name": "wazir",
   "display_name": "The Wazir (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,108 +13,108 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/wa_add_player_01.wav",
+          "file": "sounds/wa_add_player_01.mp3",
           "label": "Yes!",
-          "sha256": "f288ca0f557218d0378737a9c7ce1ee62f1562c37759bb747e7301d2020daddf"
+          "sha256": "93fb8a6cf6e6ab6b38d4b898a79f74bfb65d6614e185e7294d31c4d19784f1f6"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/wa_willattack_01.wav",
+          "file": "sounds/wa_willattack_01.mp3",
           "label": "You better be right",
-          "sha256": "41cdac1be9008230f3f50d584a19e024b189aea80a8c951a7bed7af0db604147"
+          "sha256": "4f81fa680f8300044fd26b6c77659ad38a8ac875b74338f219c55777223d2976"
         },
         {
-          "file": "sounds/wa_sent_01.wav",
+          "file": "sounds/wa_sent_01.mp3",
           "label": "Do not waste them",
-          "sha256": "463fdff0a997c7d8bed40756b041d9986e27747b2d5ba734a830cf7fafc5fbd1"
+          "sha256": "b1f742da3493a4376ef96bf67d99c3cc6291e32bdac0f02c6b930b96bc32a6e8"
         },
         {
-          "file": "sounds/wa_siege_01.wav",
+          "file": "sounds/wa_siege_01.mp3",
           "label": "Desert will run red",
-          "sha256": "93dfc1c4d0d11ba378dd3ca46b0ad59f3b0f75d954fd08858268336cbb9238d5"
+          "sha256": "45589dc53b15a7eec2f1b3be88307f896958aca1c58f03a70fe6ca72b06f2c76"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/wa_vict_01.wav",
+          "file": "sounds/wa_vict_01.mp3",
           "label": "A mighty victory",
-          "sha256": "e3fbf67d5f51fc8fb30be05a182f2a0cef243df5294a04c7853f29ed47d89ee3"
+          "sha256": "2f4512cd20ba9a5546ce42b8e483967faaaa591bc0353765b4efa915fd21f687"
         },
         {
-          "file": "sounds/wa_boast_01.wav",
+          "file": "sounds/wa_boast_01.mp3",
           "label": "Another falls before me",
-          "sha256": "bac9014307241b25eb6b46ca4016ba2bae1addd12edc1f9f7ff77c626c4455ba"
+          "sha256": "ef1810647c26f03b835dd59fe6500e1323f8594a139b62c87510cd1383e224bd"
         },
         {
-          "file": "sounds/wa_vict_04.wav",
+          "file": "sounds/wa_vict_04.mp3",
           "label": "Fall like flies",
-          "sha256": "850ec430eb5404d05042dc61a4c597f7e63e2e76d9cf54e441f589aa1c06bb8b"
+          "sha256": "1b011f0fbc619815460c6d459745feb3436ed27ac1cdae004ab3b25398c49db0"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/wa_anger_01.wav",
+          "file": "sounds/wa_anger_01.mp3",
           "label": "Warriors have failed me",
-          "sha256": "2e1b9fa24be56d8d48cf7fe4798e092ec401215b97ac11d7c19dc212fea99f0a"
+          "sha256": "9749f9aa2ed65c6a05488e4be32172556786711c9ba1afaaf6f4171ff537f4f9"
         },
         {
-          "file": "sounds/wa_anger_02.wav",
+          "file": "sounds/wa_anger_02.mp3",
           "label": "Wretched tin man",
-          "sha256": "2e13cec9f772abbad787385995b1828cac8e267a03019fcf0ada3f93a606e207"
+          "sha256": "27cf152955252c35bb0fc13b10a0387121fb52b715047b3fd16096c2089c2af9"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/wa_help_01.wav",
+          "file": "sounds/wa_help_01.mp3",
           "label": "Swiftly to my rescue",
-          "sha256": "1b75fd6e2e5553a6c15ed91452eb6831d7a3ea9823748d40e133a605c2036714"
+          "sha256": "098f54dd313c499cabd2642641686a3102c5422b802a2eaf211bf85002c02e97"
         },
         {
-          "file": "sounds/wa_nervous_02.wav",
+          "file": "sounds/wa_nervous_02.mp3",
           "label": "We are weak",
-          "sha256": "a8b5f9b6288796e0c806e397782f8cad82776baca8083b91f59bd7ecf222cfda"
+          "sha256": "2fe00569120400d369fda5993e44924c4a1158334d5b31d64fd0a09e6798a446"
         },
         {
-          "file": "sounds/wa_req_01.wav",
+          "file": "sounds/wa_req_01.mp3",
           "label": "Send me these goods",
-          "sha256": "74e1794720f773c2872f21397579911fbecbc2e4927dc2d48cfa0fa0f5a2ddc3"
+          "sha256": "82ad150267fdc3c14033c4a42e17718782fbb204ec747b300ff6c68562a3bf74"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/wa_notsent_01.wav",
+          "file": "sounds/wa_notsent_01.mp3",
           "label": "No goods to spare",
-          "sha256": "2c95a79b0e97f64f2b072e99e9f7977a71a6289d31532e43ceffb50149b1f216"
+          "sha256": "b45097b42f0e29445c72362e9d458e92ca13be7aaeca118ac5e07ffedbe32865"
         },
         {
-          "file": "sounds/wa_nohelp_01.wav",
+          "file": "sounds/wa_nohelp_01.mp3",
           "label": "Cannot help",
-          "sha256": "6de574917a90d13c3987c70ff2bd152fc64aaaa9544ab7c04ea3a3197ff0e8e6"
+          "sha256": "6ebfd54e4eca6fa22fae1e1d6bc31fe1156fb8f4d585fe9132419cc10ba972c1"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/wa_noattack_01.wav",
+          "file": "sounds/wa_noattack_01.mp3",
           "label": "CERTAIN DEATH, AND YOU KNOW IT",
-          "sha256": "d8d61e3dd55886ba20153d0c5fd03d3dbdb7a983599737924fc18c59ad27b0d2"
+          "sha256": "83135ce71087cb2ca3410e5b524c458bb96c7d1c845a7397ce01de295454ad87"
         },
         {
-          "file": "sounds/wa_kick_player_01.wav",
+          "file": "sounds/wa_kick_player_01.mp3",
           "label": "Ah!",
-          "sha256": "fa70de58b49b7994f210b3086474c813eb85bed3d93a30e9257d55882d80c079"
+          "sha256": "30dcffb605937aad43d803b6ad60ff682a07aa72418022c4c1cc333a301a2879"
         }
       ]
     }

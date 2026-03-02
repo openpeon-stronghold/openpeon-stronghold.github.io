@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-richard",
+  "name": "richard",
   "display_name": "Richard the Lionheart (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,113 +13,113 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/ri_add_player_01.wav",
+          "file": "sounds/ri_add_player_01.mp3",
           "label": "Well done",
-          "sha256": "ded1c6986ad40cbac1fdbfc17593caf28baca4dd5479fedba7e752a9da72745a"
+          "sha256": "673564bb26c0ede70743f06953d517dff94a9295e7dafa3bdae7e1dd5354e24b"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/ri_willattack_01.wav",
+          "file": "sounds/ri_willattack_01.mp3",
           "label": "I march",
-          "sha256": "c9e9aad5cae4d3f3c91cd85b994bd68089bcc380a986bf93d6398542f00f5dd6"
+          "sha256": "c144197cc91370c95486e3e952e76d8d2bdc8af2dbe1d24cab6075e93403e29c"
         },
         {
-          "file": "sounds/ri_sent_01.wav",
+          "file": "sounds/ri_sent_01.mp3",
           "label": "Already dispatched",
-          "sha256": "0f5b1475f0b0d4b9c8cb6ae40515ac95c38cd96ee7d05981c8cbb5517b1eca6d"
+          "sha256": "9414ad6c9c6913f38c40a4764f6e3a94a7a068948561a99736f9ddbef8406f31"
         },
         {
-          "file": "sounds/ri_siege_01.wav",
+          "file": "sounds/ri_siege_01.mp3",
           "label": "Men in great heart",
-          "sha256": "850087197ddac9045296d4634d798324fb2272f7eb2cffa4ef650c312e04edc4"
+          "sha256": "d58b9eb093c1afa68d19b6ceb5326dc7a97bb14bf0e10e6a67e50bcd57b20b17"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/ri_vict_01.wav",
+          "file": "sounds/ri_vict_01.mp3",
           "label": "The lion roars",
-          "sha256": "817c3e921943490334d450e20e0ab9107c91a13370f6215c43a42aeb6ce0456b"
+          "sha256": "6a4a654f36ece8dbe9b71280b331b7267dc7e2286d2bb72e6276e51f563b0c3f"
         },
         {
-          "file": "sounds/ri_vict_04.wav",
+          "file": "sounds/ri_vict_04.mp3",
           "label": "Sound the fanfare",
-          "sha256": "e9b440a399270384f1ccfbf2f9805b562e3515537e12f88b45054e85c1cba709"
+          "sha256": "4c02dea80e2411988527ee5aaa06d20145c232d18ebb3931079b18247e74b252"
         },
         {
-          "file": "sounds/ri_boast_01.wav",
+          "file": "sounds/ri_boast_01.mp3",
           "label": "Another false lord fallen",
-          "sha256": "f0f56998dc8d9220d13012365d1b6a5f33e519171d980f8cf40731ed22a20eaa"
+          "sha256": "0b52f6ebc0f9178370026b78444449ada7064ea2656df7ec7a74db0e95efd453"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/ri_anger_01.wav",
+          "file": "sounds/ri_anger_01.mp3",
           "label": "You fight like a man",
-          "sha256": "5d448e1520da535c947cac8a58ca255f4c4644dec971856cdf972b5d58fff615"
+          "sha256": "df9dc9d18cadfb099874050b4c283e0c2f08fbceb0967228041cebe8248d94d6"
         },
         {
-          "file": "sounds/ri_anger_02.wav",
+          "file": "sounds/ri_anger_02.mp3",
           "label": "How about a fair fight",
-          "sha256": "45ce071b6691ec3296b39c01a766f5775a27f1d01f6a7223d07b12a8a64131c6"
+          "sha256": "5a27946a63fd46ac34d5da0f64002b840f11a43919c27ba388e5999445e2c37b"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/ri_help_01.wav",
+          "file": "sounds/ri_help_01.mp3",
           "label": "Royal standard in peril",
-          "sha256": "8c9b82859c7461ad7eaf249d2382ba45c62aa1fe62e003ea98e0636c966747c7"
+          "sha256": "fe0d6af783f3176be96b8ae01b8a1c5a721454e0b12ee8d9c00c74792238ef80"
         },
         {
-          "file": "sounds/ri_nervous_02.wav",
+          "file": "sounds/ri_nervous_02.mp3",
           "label": "A king must cower",
-          "sha256": "7bcad7b17208fe6ab3fb6d8c6bd2fd5e308c8b10bf4a1ad6ef227e5a114a7454"
+          "sha256": "543417b4940c3070582a3ee4af750308c7f86249289b7c871e99b1e24deb1b35"
         },
         {
-          "file": "sounds/ri_req_01.wav",
+          "file": "sounds/ri_req_01.mp3",
           "label": "In short supply",
-          "sha256": "da859aad6db1f6ba1e4cb8459cede2f3be239b90d0086c1619d9ffedcee0c988"
+          "sha256": "6b9984e3ab0c202902bf101b6e8e0cbad0520062aedc53eb46c2f37ac67acb1d"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/ri_notsent_01.wav",
+          "file": "sounds/ri_notsent_01.mp3",
           "label": "Cannot send goods",
-          "sha256": "b04a3b841271d8e78c80ec39579bae7bcd0ed5041c40bf19571782b87578a37b"
+          "sha256": "26bbd18dc3aac538e7309fc20ac5e063aff786ddecd843e18ba31931664a9319"
         },
         {
-          "file": "sounds/ri_nohelp_01.wav",
+          "file": "sounds/ri_nohelp_01.mp3",
           "label": "These are lean times",
-          "sha256": "a3580e997adcd6809288c19da390a8514c0ffcf92e723343d35da5c7992efe97"
+          "sha256": "da5fa34b670787c0cc03983d0b064be43eea2cc0ae85a3d59f5dda2425bced75"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/ri_noattack_01.wav",
+          "file": "sounds/ri_noattack_01.mp3",
           "label": "None but a fool",
-          "sha256": "6eac5f49ef04f8a94a57ff9f586ee5528dd9cc01566028810881f25fbf656dc7"
+          "sha256": "7b1f811f8168bde938ccce15d62b70f1ce41b40dd37c0e4c24297859937a4945"
         },
         {
-          "file": "sounds/ri_noattack_02.wav",
+          "file": "sounds/ri_noattack_02.mp3",
           "label": "More important plans",
-          "sha256": "ccecd153e51623097d1ecc02cec8823a91a0f8f8babc223be20c0ad57b2441b3"
+          "sha256": "f08d8d33a1047da2cc6feaac32ad398fbc68571df7dec0e89910ec92cbd781e2"
         },
         {
-          "file": "sounds/ri_kick_player_01.wav",
+          "file": "sounds/ri_kick_player_01.mp3",
           "label": "Afraid?",
-          "sha256": "fd964ddac9d74af608ccc1f84dfded44015ea92cd6744b76f1664d74d8d0e06b"
+          "sha256": "40f815046f8957b2c5a013e869067f490ae78641f21f6a0c9b86961bbd55fce5"
         }
       ]
     }

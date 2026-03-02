@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-emir",
+  "name": "emir",
   "display_name": "The Emir (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,103 +13,103 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/em_add_player_01.wav",
+          "file": "sounds/em_add_player_01.mp3",
           "label": "Greetings",
-          "sha256": "617e04a1b768cd870751b873f6231983b3634c12175a6f71a17c46ae008de523"
+          "sha256": "2426cd748a86ecf6bceb7dbf13aa5489da81e9969aeb03f0a0469ca63d27ef54"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/em_willattack_01.wav",
+          "file": "sounds/em_willattack_01.mp3",
           "label": "You are right",
-          "sha256": "486a59b70f7dfb0a0eb8f5ddcc025cd6fdea81ee09a3f08340bf57cb4d2b3175"
+          "sha256": "8f13d0a6aeed0723c3ef74ff7d01a9ca472e65e9d57f8a165198d81b21d647b6"
         },
         {
-          "file": "sounds/em_sent_01.wav",
+          "file": "sounds/em_sent_01.mp3",
           "label": "You shall have your supplies",
-          "sha256": "68e5f77f8e178fb27f719ea195a1d13b45adc9bb02ff33bc5ff46f88fd3ee7e4"
+          "sha256": "0b1c73b431f416ab19cd4e4f3c6d7c69a9c69f028a693572faba2fb8d238169a"
         },
         {
-          "file": "sounds/em_siege_01.wav",
+          "file": "sounds/em_siege_01.mp3",
           "label": "Order to siege",
-          "sha256": "def85bdf7d4cc9a3aa6ed34a9bca4e2f7ef570fad44b2cb5a6ea8739d5a163ac"
+          "sha256": "8066ab2737feb688799b650aea29a39fc20d195937193bdea34275fae52c8518"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/em_vict_02.wav",
+          "file": "sounds/em_vict_02.mp3",
           "label": "Oh, this is easy",
-          "sha256": "f5a8bdb0d504330878a31ef72405acbeee9456c70bf75d48f7807402424c097d"
+          "sha256": "2ab3db2901b85b8cd6b7e4a5b0b1919a472906b11c486baa006e00f4eaeb1a5b"
         },
         {
-          "file": "sounds/em_vict_04.wav",
+          "file": "sounds/em_vict_04.mp3",
           "label": "Winning too easily",
-          "sha256": "98670e5bd625831ea4caf292913ce0cab01764e16e520f1a6715ccd82bed91af"
+          "sha256": "74efe512cd662521ff869a9ce3890639b68666c2cf34250d98b762aa5b772e37"
         },
         {
-          "file": "sounds/em_boast_01.wav",
+          "file": "sounds/em_boast_01.mp3",
           "label": "How about that",
-          "sha256": "c2018cbd707f266baf5576cd6b1c356bffbbd52f687f022f7de22d39b0ddefde"
+          "sha256": "c56b1b4578eb0670373b6058a014663c436aa21c8dc9ed7067b6a4255e05aa20"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/em_anger_01.wav",
+          "file": "sounds/em_anger_01.mp3",
           "label": "By thunder, what a disaster",
-          "sha256": "0c3bb1a4fb280ab90bfdd6f504516e06aec7274927994bf0a5d1c13ab14d0129"
+          "sha256": "221611c2af94646e8da5ca7c4882f6f3e17cf1d7fce54d9d11e0552bf646bb28"
         },
         {
-          "file": "sounds/em_anger_02.wav",
+          "file": "sounds/em_anger_02.mp3",
           "label": "I may be forced to act",
-          "sha256": "a8d5c814875fabe38c2a3c89bd93023b269d7a2327a67e4adb96d7ac3fe23f7b"
+          "sha256": "943e95472e52236412a54f1c226627bea10de6bfa28bac98fe6269f44dd62c03"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/em_help_01.wav",
+          "file": "sounds/em_help_01.mp3",
           "label": "Beset on all sides",
-          "sha256": "e6d8d3b5efd19d29c2aaa5fe190dafb9c9dcf1bed6d0bac35091e3bf1c3849f8"
+          "sha256": "8deb0247669e50a2ba5c30204aaf87c69bdb5d4ee502e2bf0878ad2538b2bef3"
         },
         {
-          "file": "sounds/em_req_01.wav",
+          "file": "sounds/em_req_01.mp3",
           "label": "Stores most depleted",
-          "sha256": "06de07783ffa8d131d93ff08548f86bd68ec9bd67235cca24256ac9d60147e1e"
+          "sha256": "d0007915991aa18737cbcb7190e7dff88981518651ce388972253337baa1c360"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/em_notsent_01.wav",
+          "file": "sounds/em_notsent_01.mp3",
           "label": "Difficult to send goods",
-          "sha256": "ddc63f63b41cb99131d50903385edfb2caa8a7a1679fd6990ef4a02613c47691"
+          "sha256": "82c9632bfdb3aaa0bb053bfdb61f5de7986537b70ed7f83d02ecf8b02fd5768f"
         },
         {
-          "file": "sounds/em_nohelp_01.wav",
+          "file": "sounds/em_nohelp_01.mp3",
           "label": "Cannot come to your aid",
-          "sha256": "96c6bfafac99a485df3546f2c46014c6c60b6aa9234ea44975a68ef0e3f78026"
+          "sha256": "155d87a4b9aab5d1a5008c6f1288fedfc6b6bdee3a7c868e6ba6ba612bd44cfa"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/em_noattack_01.wav",
+          "file": "sounds/em_noattack_01.mp3",
           "label": "Too risky, far too risky",
-          "sha256": "51138b9246a81ff87adf61f09b76720b2727e7eec9a4e032f732e6c1ac61b576"
+          "sha256": "4097b09a30ff9e2c890478b2e3c808d5824b78edec9a5e0036e45cec1495da59"
         },
         {
-          "file": "sounds/em_noattack_02.wav",
+          "file": "sounds/em_noattack_02.mp3",
           "label": "Must decline",
-          "sha256": "57b168fb30579127d8f97422163a1225fbcad81e51d42f7df40b8e9c22c235e3"
+          "sha256": "c7c35868fbb6dc3168bb4c7a99d6dd12a4b23d823de9cf277696e70c81f18fa6"
         }
       ]
     }

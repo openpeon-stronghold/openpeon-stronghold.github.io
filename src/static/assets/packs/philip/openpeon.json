@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-philip",
+  "name": "philip",
   "display_name": "King Philip (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,103 +13,103 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/ph_add_player_01.wav",
+          "file": "sounds/ph_add_player_01.mp3",
           "label": "Mais oui",
-          "sha256": "1d66262865f94ec99664f650dd11c0b641affe11c495b7fdbaff8c3a48cbfa07"
+          "sha256": "84df5971aebe7f39669d5fb89c9c0d5409276490849634a7ae330c9edf2f1616"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/ph_willattack_01.wav",
+          "file": "sounds/ph_willattack_01.mp3",
           "label": "On my honor",
-          "sha256": "27c87122e1445e01037b02732089656e54e24e2436d87b80dce7f19546aefdf1"
+          "sha256": "4c1b8f3330317562c4655f698b8404bef706f3c6b0468d7b3b41837a8871c683"
         },
         {
-          "file": "sounds/ph_sent_01.wav",
+          "file": "sounds/ph_sent_01.mp3",
           "label": "Request has been dealt with",
-          "sha256": "b46734a1a608931058c4e542bc436fba85a4465003d7dd0d2d6365be40301c2b"
+          "sha256": "44014f56a8f8a2bd22acb2c15c9bd777b88e3981ba5b0f41617967015b650d37"
         },
         {
-          "file": "sounds/ph_siege_01.wav",
+          "file": "sounds/ph_siege_01.mp3",
           "label": "Noblemen adorning armor",
-          "sha256": "7f3073d55416a61dc893d98a56e842093f64a92d0307864fe0179ab14beb1db5"
+          "sha256": "b85baa6e7381c5d28bbf8d1fee4c262aeb6e44792eba99b65d4fb912e6ea69fc"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/ph_vict_01.wav",
+          "file": "sounds/ph_vict_01.mp3",
           "label": "Armies of France triumphant",
-          "sha256": "e808275838f6ef627f56f2ade717efcb785fae2150ff1e2c2ec3625264a2cb69"
+          "sha256": "12dee82fdfb8d6e3a2493d836904c89f8c923a65f77e09f366adaa59a6270df7"
         },
         {
-          "file": "sounds/ph_vict_02.wav",
+          "file": "sounds/ph_vict_02.mp3",
           "label": "Quel courage!",
-          "sha256": "6ddd057a06aa877dde635459de956e82a5af8972bc80a24822662be99bc9c346"
+          "sha256": "22f39e217067bd9bead3ea9d4b64d262e1c8e7848dd1d8a405a5e887bae06dc1"
         },
         {
-          "file": "sounds/ph_boast_01.wav",
+          "file": "sounds/ph_boast_01.mp3",
           "label": "Dispatched another enemy",
-          "sha256": "79d3b7e58990964a617a03b1695203ac03deb67c48945682d3f567e74e8e57ba"
+          "sha256": "4363b9a6dd0e7a7f0ad09e8555bfc30e0c1a98591865069f41596875a2eef57c"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/ph_anger_01.wav",
+          "file": "sounds/ph_anger_01.mp3",
           "label": "Surrounded by fools",
-          "sha256": "4e7446862571e7f14669f57bb6eeb1762364534be8077090e490fbd1fbe79d7d"
+          "sha256": "028e62abfaa67ebc35d69bf0ee49b9c71d32219dc648c6227af0c339d7ab7b82"
         },
         {
-          "file": "sounds/ph_anger_02.wav",
+          "file": "sounds/ph_anger_02.mp3",
           "label": "Black-hearted enemy",
-          "sha256": "bfbe74b550e227216ccc94db46bb1e812ae9d47895a30826b3eefcc9283a56a7"
+          "sha256": "2a9e3e294a5043e0a30e93fe1c36f7f4160e1fa3c17bf17d9f4b8e2af336bfb6"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/ph_help_01.wav",
+          "file": "sounds/ph_help_01.mp3",
           "label": "Send your armies",
-          "sha256": "7ab6e225c7e622d631b0ed0269c5ecd8538da5bced31044f77c613b9c0b675dd"
+          "sha256": "dd7295ead743095b991f32ad8f49aaa3da8c4fceb0a459bed36011973c29c2b1"
         },
         {
-          "file": "sounds/ph_req_01.wav",
+          "file": "sounds/ph_req_01.mp3",
           "label": "Short of supplies",
-          "sha256": "189e8b6668674f689ae3782f880d50632d4e9f324dcbad6d580a33fdc380412c"
+          "sha256": "2f3c67ca823537174e37c03f90fa159d9af675bacfec7ff9d28f26d898ca16a3"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/ph_notsent_01.wav",
+          "file": "sounds/ph_notsent_01.mp3",
           "label": "Need these myself",
-          "sha256": "5ebc20932918f868ad4bc80a5b1e608e4eb18418c76fccd215a22e4f82c1ba9f"
+          "sha256": "88a6f35e792882cdcca2fb076b96fe7f876b82417abdcc1bef5f17dab521650e"
         },
         {
-          "file": "sounds/ph_nohelp_01.wav",
+          "file": "sounds/ph_nohelp_01.mp3",
           "label": "My knights are all dead",
-          "sha256": "13e19c3bb459758ffc25e992bb3b10bb659ffaa75a22445386ff39c2cca96cf6"
+          "sha256": "e2be2cec41eda5b3d5b4025c5d284023fb9d4c20029b104edf108d4273e3d9dc"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/ph_noattack_02.wav",
+          "file": "sounds/ph_noattack_02.mp3",
           "label": "Too boring, don't bother me",
-          "sha256": "ecc59593c6dae0cd84c11214283b2c9749dfbb1c2673b53a0317f1eab3f39a9c"
+          "sha256": "abd25c61f4bf8b78dc8ad83b8ba63c02d15a6991fecdc37f12c94af5559efc60"
         },
         {
-          "file": "sounds/ph_kick_player_01.wav",
+          "file": "sounds/ph_kick_player_01.mp3",
           "label": "Adieu",
-          "sha256": "0eeb04925eef39caff6a43c9e42c36c49e30ab738e18577996345c3a2e8b3a39"
+          "sha256": "60f53aaf2106db078ce5b4981003514b3aacd0ba44506fa36518da469f02a900"
         }
       ]
     }

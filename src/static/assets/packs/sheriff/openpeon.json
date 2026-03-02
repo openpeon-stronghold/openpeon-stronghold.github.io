@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-sheriff",
+  "name": "sheriff",
   "display_name": "The Sheriff (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,113 +13,113 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/sh_add_player_01.wav",
+          "file": "sounds/sh_add_player_01.mp3",
           "label": "Ah, revenge",
-          "sha256": "8f8e8f4999eedf98b5ee5fdb91f05047b54544cbcf8096f3aa4464b0e8015e15"
+          "sha256": "24e8d4a2a39ea7fb0cc61a72b65ad1b3d06ec526a8f010be04c9b8a683ab41a8"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/sh_willattack_01.wav",
+          "file": "sounds/sh_willattack_01.mp3",
           "label": "If I must",
-          "sha256": "21e5f58e3c217093abb1b0cb9cf092276c2b05fc85d4d6e376748710c53f4aca"
+          "sha256": "6f79fe282980754be826e5f3e2d89f4e5b9e21a09742f5f0311dd10e616359f8"
         },
         {
-          "file": "sounds/sh_sent_01.wav",
+          "file": "sounds/sh_sent_01.mp3",
           "label": "Generosity will kill me",
-          "sha256": "04a9433ee501f5409614fd20376e9b25c8876c39ebe1f9cb9f340ef73c7cf629"
+          "sha256": "448fdd9d6d0a8f3c2f6657861a677fdf246547b09e16e94fed267f9a52c5b93b"
         },
         {
-          "file": "sounds/sh_siege_01.wav",
+          "file": "sounds/sh_siege_01.mp3",
           "label": "Another fool loses his home",
-          "sha256": "643dcad2d95ff9bb56aab9bbdf8d1802f2917da11fd2919da1b9eaf927c2b5c5"
+          "sha256": "4d014bfe4763aa2674dd7b96ab3ca44e00e77e0b5b414ce4ab3438f2ff724258"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/sh_vict_01.wav",
+          "file": "sounds/sh_vict_01.mp3",
           "label": "Sweet victory",
-          "sha256": "fc9d6e1ad1cd92b3159810cf442c212e5157693e755b072e87af90f1e0842391"
+          "sha256": "6507cd10251e35969cab75039371073c2d5291d980a0eb4812cb31db9c031a8d"
         },
         {
-          "file": "sounds/sh_boast_01.wav",
+          "file": "sounds/sh_boast_01.mp3",
           "label": "Watch and learn",
-          "sha256": "37b0bb56da8919ad1807b85f74089ec7015577c52b75ba09fe7917441f791c7a"
+          "sha256": "05d05417545072aa2da5a0602d00d5794e12569b352abb0331485072bf89eb64"
         },
         {
-          "file": "sounds/sh_vict_04.wav",
+          "file": "sounds/sh_vict_04.mp3",
           "label": "Gets his ascending orders",
-          "sha256": "b588c03605ab29595eddcfcaa0a265b3a85bb7a4eacd9d6b292c33a2be8fafbf"
+          "sha256": "da071bc0faf23015b5b9ae7ac415295746827d8062a697872e981572208385c5"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/sh_anger_01.wav",
+          "file": "sounds/sh_anger_01.mp3",
           "label": "Blast and thunder",
-          "sha256": "81831bf0286d8565716d880b8d6f3fb1b7b9a3bdc751e4dd581592a2a16cf052"
+          "sha256": "518d0dd4e9ad9e7eaf66614361d630948a48abd6969254334d6fa971569b8adb"
         },
         {
-          "file": "sounds/sh_anger_02.wav",
+          "file": "sounds/sh_anger_02.mp3",
           "label": "That's my castle",
-          "sha256": "070f6612a1b93599815953c4709814bff0962ef89d6aceea91012f69a057685c"
+          "sha256": "caefe19bd90abd4a18a8c6e0dc879290c4a583fe215205d6276d11cd280a9944"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/sh_help_01.wav",
+          "file": "sounds/sh_help_01.mp3",
           "label": "Help, surrounded",
-          "sha256": "e7da6abae7c8d27646b096bc089cc1da94a90b07b1fdbbacc81c4b8963de8b03"
+          "sha256": "589162d0ccfea6b7dae14e4169c7195a05df532f4612dfcbcc699cbe0a857b0e"
         },
         {
-          "file": "sounds/sh_req_01.wav",
+          "file": "sounds/sh_req_01.mp3",
           "label": "Couldn't send me some goods",
-          "sha256": "ec6fe1c865d447af44ee4bd4722baa6147c807c0d608f52e9d008de414eee76c"
+          "sha256": "51ce7a996c491fabac9bbd5bb0974102b2982d11613dcff0b17e8ea5d3d53548"
         },
         {
-          "file": "sounds/sh_nervous_02.wav",
+          "file": "sounds/sh_nervous_02.mp3",
           "label": "Fetch the tax collector",
-          "sha256": "c32733beb8f33a694be717a6def1be63d52b5cc3ee81a2f7cabd3525e7b03685"
+          "sha256": "3d68fe2dc638b6c7b2f99469d35783aaf594160018fdf47f74da22b76e5f7027"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/sh_notsent_01.wav",
+          "file": "sounds/sh_notsent_01.mp3",
           "label": "Not Father Christmas",
-          "sha256": "065c62952362853d9ed494de020daa659ab36b8c9f6b705bc90bc7c01919a098"
+          "sha256": "bba05f6e7368d92fa98217eb91e8d62dc6eb208b3804cb4cb186a46ec3d38d95"
         },
         {
-          "file": "sounds/sh_nohelp_01.wav",
+          "file": "sounds/sh_nohelp_01.mp3",
           "label": "Do I look like I can help",
-          "sha256": "ea957af23f6430d6374569f8acc7578a969c4918b686edcdd9e9312e280a8010"
+          "sha256": "1e72ec61f84a2435b9e8069ee06add88294dd5b2b15e211e7c23356b77be7e98"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/sh_noattack_01.wav",
+          "file": "sounds/sh_noattack_01.mp3",
           "label": "What a great idea, I don't think so",
-          "sha256": "492777eae4f5e0af59f86131c9fc771f2a26ae22fe1f57c4ef74dcb4b75995b5"
+          "sha256": "075fa3e35f0ebd327e14d878ccb0e35678ec8b68a411699b4df3c0d6983d4349"
         },
         {
-          "file": "sounds/sh_noattack_02.wav",
+          "file": "sounds/sh_noattack_02.mp3",
           "label": "Do your own dirty work",
-          "sha256": "99e8f3207c00297ef31dbbb26acac96083a2fbd39e160ce0ae39d9367ea3f3d9"
+          "sha256": "9bc2dd53d4b833c71db8e2495ba5cc5ff54969de730191fccae0370f9d4b26d7"
         },
         {
-          "file": "sounds/sh_kick_player_01.wav",
+          "file": "sounds/sh_kick_player_01.mp3",
           "label": "Idiot",
-          "sha256": "0602013002d34eeb128126f686952659b0fd5c75e060afb8b90fd0f2a8644c08"
+          "sha256": "e8c8c5ff9aca8e08d9dd8a44d011c1987c8f9d042dfede7cd36b5afa13748d17"
         }
       ]
     }

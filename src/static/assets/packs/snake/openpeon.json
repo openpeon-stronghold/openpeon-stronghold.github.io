@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-snake",
+  "name": "snake",
   "display_name": "The Snake (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,103 +13,103 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/sn_add_player.wav",
+          "file": "sounds/sn_add_player.mp3",
           "label": "Laughing",
-          "sha256": "cae639424f4d16e52dc1a8ef4b9a485743b94ad84c8ce0eb73a2a9ab6d28cc4b"
+          "sha256": "47e872b62112a645bb636b9a408891fbc6fe7e61dff658f72c3d80bdb0b4dc37"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/sn_taunt_02.wav",
+          "file": "sounds/sn_taunt_02.mp3",
           "label": "Presently upon you",
-          "sha256": "33ea56d89d5a6ff87dcb75b821d1755e2b9ddade24ddfc4ef128df33532d70a9"
+          "sha256": "41265e8418c022dc36fcd678d6d02adf162414efdf30cf371f266e8c7d759645"
         },
         {
-          "file": "sounds/sn_taunt_05.wav",
+          "file": "sounds/sn_taunt_05.mp3",
           "label": "Your death drawing near",
-          "sha256": "c9a24b0931dac667a97c63e80c9ac9039d440f280427a7587fbef80a82c99dc8"
+          "sha256": "2a9e4d688334f5e13e505661422b1cec194afc5b1e67b475ee91585303cd8c0f"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/sn_vict_01.wav",
+          "file": "sounds/sn_vict_01.mp3",
           "label": "You seem to have lost",
-          "sha256": "23183d84a982111a25d5f722064690721b4ee937cc4044241c461ffccad7e703"
+          "sha256": "2fac0d58bef47e7ab9b4b819e0f812c16d850748e47324b7e9579987f6ef2f41"
         },
         {
-          "file": "sounds/sn_vict_02.wav",
+          "file": "sounds/sn_vict_02.mp3",
           "label": "Am I victorious? Oh yes",
-          "sha256": "c2fff0166d68c100ed464d5649f77f3aabe5a26d49db5541f8b4fab5a031fd0c"
+          "sha256": "ff955273e38ee83878382ed72a2115ca1a7ba4474345b1aff77d006b2047ee92"
         },
         {
-          "file": "sounds/sn_vict_04.wav",
+          "file": "sounds/sn_vict_04.mp3",
           "label": "Getting rather tiresome",
-          "sha256": "bc6e926384e38a193bcb04ba5b266f3a0f471a64acc99420dbc91a72498f8150"
+          "sha256": "49da375e81879cf2f14788946b2db4bc5489b1f1fd502c39a9c098f3c5065d09"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/sn_anger_01.wav",
+          "file": "sounds/sn_anger_01.mp3",
           "label": "Ruining my plans",
-          "sha256": "b611dd955470aa3cc2fe810bdd9b842292709d983f599fb96385b5fd3e78493b"
+          "sha256": "429fe6b86cd276a7af71500a9313343d70f816f2acee5c9ec792182784f345dc"
         },
         {
-          "file": "sounds/sn_anger_02.wav",
+          "file": "sounds/sn_anger_02.mp3",
           "label": "Not again, sick of your persistence",
-          "sha256": "32907c98e6c10bb49d23da895b026530500c2550c8876cc3ff939ea69a12da79"
+          "sha256": "465b99ea5b3d97da1fe42ee56c07f6775ab27113f9dab586a19137a35b94b837"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/sn_plead_01.wav",
+          "file": "sounds/sn_plead_01.mp3",
           "label": "Wanted only to be your ally",
-          "sha256": "0af60a5477bee5cf7b6a3adbb48591acdf185e37f128b08a2add6ad986ce0c16"
+          "sha256": "dddd567227d1368d555bd62f0660356d343913a323508fc0be12f630e7a50911"
         },
         {
-          "file": "sounds/sn_plead_02.wav",
+          "file": "sounds/sn_plead_02.mp3",
           "label": "Spare my life",
-          "sha256": "55d07be2a8994ca8d1d4ddc370f4cf2e2928b8732443a88dc3468fb04c996ee2"
+          "sha256": "beef0abbec46ece5dc2c9267d8de9cc56ff20660ee389776638d3f80dbd9bb80"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/sn_plead_03.wav",
+          "file": "sounds/sn_plead_03.mp3",
           "label": "I think I might just...",
-          "sha256": "ca1191036ff324d8967d54d8711d9797e88b6620d1e08649176e0f94bf5ea427"
+          "sha256": "e7fa5387a22b01560dbc54543f31fbc14e1de70bed514aed5991231083637647"
         },
         {
-          "file": "sounds/sn_anger_03.wav",
+          "file": "sounds/sn_anger_03.mp3",
           "label": "You severely try my patience",
-          "sha256": "15147086ca0d60791fa1ef0e569e3172465bf5509c35c1f35eb30e9ce0afc44a"
+          "sha256": "dd8705337e3d126325d03a73aed91781744828277c8e51640481ffb891a17b6c"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/sn_taunt_08.wav",
+          "file": "sounds/sn_taunt_08.mp3",
           "label": "You're kind of persistent",
-          "sha256": "65c1ee29b783298aecfe98d42b68c449c513eaa8a7bac92523bb7f0ce7c42354"
+          "sha256": "06f79f7c0cd4e9e0e8c9ec39c8342b69434b56e5fc3182807bc45eb1180837e5"
         },
         {
-          "file": "sounds/sn_anger_04.wav",
+          "file": "sounds/sn_anger_04.mp3",
           "label": "Who are you to challenge me",
-          "sha256": "910380630d48f086aa22edb6bd90c4869af7b314ebf8c7a3a9673d093eaf5a01"
+          "sha256": "e44632ffbda24ff7eefc284d1f419122a78582cb5649f1563b7a8f5dee9d9bc5"
         },
         {
-          "file": "sounds/sn_kick_player.wav",
+          "file": "sounds/sn_kick_player.mp3",
           "label": "Ha!",
-          "sha256": "f697741c6be843f7e7bb3a33ad7b6aabe2b967d64b834297e028b73688cf983f"
+          "sha256": "136a9655ad3087cf00bbaeb7ea05c7e6fbd674e59f4ee9258c8d53da4a362dcc"
         }
       ]
     }

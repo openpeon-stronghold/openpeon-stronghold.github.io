@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-sultan",
+  "name": "sultan",
   "display_name": "The Sultan (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,108 +13,108 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/su_add_player_01.wav",
+          "file": "sounds/su_add_player_01.mp3",
           "label": "Oh!",
-          "sha256": "892d78acf0e9c2e15340be82077dc35d67022e6bdd3ed5de8da597fa90a1fc03"
+          "sha256": "47df3cb9deeeaaf8c59b65caa4ad0412e135ee8aad4a9106cae33bccd1ef94b0"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/su_willattack_01.wav",
+          "file": "sounds/su_willattack_01.mp3",
           "label": "If you will it",
-          "sha256": "5c8fee23aa67d50bd85ec7286005351b6cd9ca8dd23beac72219f7bdff8c1867"
+          "sha256": "c8d2f2f910cc9441e77e9df9fa511b71f6d74c0fb7dd847cf2590f6d5f723735"
         },
         {
-          "file": "sounds/su_sent_01.wav",
+          "file": "sounds/su_sent_01.mp3",
           "label": "Yes! I have what you need",
-          "sha256": "8385b351ee021d1f0db6e74b4db328d6f5a418385a67c412bcce69cb9cf34963"
+          "sha256": "872e1c10f6dbf6b7959a58b8e0fe9d167e2be2875bcbd2db5af050ca58886238"
         },
         {
-          "file": "sounds/su_siege_01.wav",
+          "file": "sounds/su_siege_01.mp3",
           "label": "Tigers ready to pounce",
-          "sha256": "d79d65a351e2c55012b4518abaadfe56dea7e1fd18394c93a8ad1f5da7fcfe24"
+          "sha256": "6bc02698760d7794775de755a035d585223f4a72047a058edea5acd8e76cafab"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/su_vict_01.wav",
+          "file": "sounds/su_vict_01.mp3",
           "label": "The lion has roared",
-          "sha256": "48856b0ece86ad1af1c65b9f28520ff92f194967d1b6d10a23007b620d7ced9a"
+          "sha256": "7853fd5a60ca006b928f0524f36b4dcc0a2634e093579f0ed26f7b30eb07cc55"
         },
         {
-          "file": "sounds/su_boast_01.wav",
+          "file": "sounds/su_boast_01.mp3",
           "label": "Lamb fallen to the Sultan's beak",
-          "sha256": "131a45267e6097f8b1200b08a20416c96f34eba4b2aa037c875578db3ea23d44"
+          "sha256": "56750dbf6a2cfa533b96218fc56f20e7a8fe3ec791248090fbb80ff0b4738bc6"
         },
         {
-          "file": "sounds/su_vict_03.wav",
+          "file": "sounds/su_vict_03.mp3",
           "label": "Swift passage to heaven",
-          "sha256": "03b64282b308e70b67a5bf5cc8c746614ead25eae02f5ab39bb2bec3e0407ebc"
+          "sha256": "608f14d947a310e7b8b88f8fad4149fc17cb740d74b2d1d3ce7172803e2bb75f"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/su_anger_01.wav",
+          "file": "sounds/su_anger_01.mp3",
           "label": "Sky not bright today",
-          "sha256": "444369e281953aa268ce4a9408dfea466036fd936ba41cc9fc1c56c66406caca"
+          "sha256": "3868ea898d5da87188e399c16bf43470242a6e1e003f9b63844f41241d0f879b"
         },
         {
-          "file": "sounds/su_anger_02.wav",
+          "file": "sounds/su_anger_02.mp3",
           "label": "Olive branches weep",
-          "sha256": "f4296a1be8b5691d4e5432307f1cbf70fe03298e6c97a444aa2f2e988c829a61"
+          "sha256": "a4f9ec882cd5ef62543cbc8dd7ef38c996c6a09498c61c813025e7f6b136f7a7"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/su_help_01.wav",
+          "file": "sounds/su_help_01.mp3",
           "label": "Vultures fly high",
-          "sha256": "0713f145f10a24aa108e4bd2b86c33893f8c3fc315b09139c7197fe511a72052"
+          "sha256": "27077b3fbbb13f7623bb8a9939f807deae138d57779f3564c09e97539142c308"
         },
         {
-          "file": "sounds/su_nervous_01.wav",
+          "file": "sounds/su_nervous_01.mp3",
           "label": "Red sky approaches",
-          "sha256": "8ed2861be566f943a9389087d909294d151b5fcd46eb25d12555cdf92b427eac"
+          "sha256": "df91fd30fb9af42e0569dcb617e2f53c2261516c14a44c7e6a414ca22c5cce5a"
         },
         {
-          "file": "sounds/su_req_01.wav",
+          "file": "sounds/su_req_01.mp3",
           "label": "We are in need",
-          "sha256": "ea8ee2e9dcf6c3b8f181366494b8469eb27b17c18d1f07bf43fc8b43a55988f1"
+          "sha256": "ba618317299f77890cfaab342cf80ea6c7d9a558e4b4fe74013d23aa2e29b87e"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/su_notsent_01.wav",
+          "file": "sounds/su_notsent_01.mp3",
           "label": "Camels will stay tethered",
-          "sha256": "39664c6d17fa2fe4a332f5c8386e48d783e94b2bf09dc93cc1c762719892ea27"
+          "sha256": "7626537fa1d75b66165f02448b031d0be1e1c0974b9e5618a25c37047b83bdf0"
         },
         {
-          "file": "sounds/su_nohelp_02.wav",
+          "file": "sounds/su_nohelp_02.mp3",
           "label": "Sultan weeps for you",
-          "sha256": "5b4d660798aa32119013e72f65cbbdd88e1051f873a50944318213d6c63af5b6"
+          "sha256": "78a12462bf7f5bbeaadcae09a2a539f5e48773f450d26dcc08c4cb31c73667fb"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/su_noattack_02.wav",
+          "file": "sounds/su_noattack_02.mp3",
           "label": "Maybe tomorrow but not now",
-          "sha256": "6fe1fb040b53ea03a47983424b434ecb2717a4ffb86b59a64e264388f41ebacd"
+          "sha256": "5c2695169228ea90c2c14f66c236d69f89add7f4f1d67438cb5a477c7a725329"
         },
         {
-          "file": "sounds/su_kick_player_01.wav",
+          "file": "sounds/su_kick_player_01.mp3",
           "label": "Oh dear!",
-          "sha256": "7a1f9d78781c536cb170f15b978d01bec169cb9a12f6639c036067ef9f5af580"
+          "sha256": "cb3cb52b28dde703a9f8897c29649e1acd6adb31228507171496023aa03b17ec"
         }
       ]
     }

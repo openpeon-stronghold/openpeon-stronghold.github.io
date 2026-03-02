@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-frederick",
+  "name": "frederick",
   "display_name": "Emperor Frederick (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,108 +13,108 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/fr_add_player_01.wav",
+          "file": "sounds/fr_add_player_01.mp3",
           "label": "At last",
-          "sha256": "4af2466b281c39e022d0afb0e426d3cc251c31e212d7e546b25c8ce531951264"
+          "sha256": "4eaad9f958d732e13a76432fbb2edddb5c3829f5331d3851b2940ac641e0b4de"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/fr_willattack_01.wav",
+          "file": "sounds/fr_willattack_01.mp3",
           "label": "Good plan",
-          "sha256": "5153dd3c5c01d7fd2416498fdbb2256459f6da50beb17b779e8a326a06afa1d8"
+          "sha256": "7167c811164e6bc3a0572786368a9c41efe0f7e88c375b5f21cf75e91b2d4813"
         },
         {
-          "file": "sounds/fr_sent_01.wav",
+          "file": "sounds/fr_sent_01.mp3",
           "label": "Supplies have been sent",
-          "sha256": "8ff76dbb74566f2c5859b9e75be9ccf026b4e8c6d24b3cf5f458fe97fe2218df"
+          "sha256": "d847d25a43075a47034ac410fd13e27ae3a8c1bc462d932ddd2d93eb144f12fd"
         },
         {
-          "file": "sounds/fr_siege_01.wav",
+          "file": "sounds/fr_siege_01.mp3",
           "label": "My army is ready",
-          "sha256": "d6348a8070b087d6e96878a77abd0e254d5e165241f3c27308b5d735b35c915c"
+          "sha256": "0c2d93b3595dcf50f63d7e11c0b36d462a935fbca16fa599355b16b9c1fcfdfc"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/fr_vict_01.wav",
+          "file": "sounds/fr_vict_01.mp3",
           "label": "Troops fall before the Empire",
-          "sha256": "dae2630db62155fa474a46baf6ae56aeac5cbb22e8f66025f8bf0c1ebfb78b56"
+          "sha256": "68c40ea0477f9687204c9f7fddb148aba90627f45775436e8f3a46b68f6a86fc"
         },
         {
-          "file": "sounds/fr_vict_02.wav",
+          "file": "sounds/fr_vict_02.mp3",
           "label": "Strength to strength",
-          "sha256": "87eb90a37d5bd598a6dd1b12b8e4b22275837526fc15c0ceb267dfbfb53b042b"
+          "sha256": "ab38f92c2f539ac2aeb4d9ef2c880c33b1dc63e1ab342ad21e74c927741cd60e"
         },
         {
-          "file": "sounds/fr_boast_01.wav",
+          "file": "sounds/fr_boast_01.mp3",
           "label": "Vanquished an enemy",
-          "sha256": "6c086b0c6740cb03fc26be711ce6d72cbcba0cf07e3fea53ab79b18d6cf7419e"
+          "sha256": "6e723335c78bafc6d360e4699a9e331504d7fc43a4e46d6ebd0c97c2723b9f72"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/fr_anger_01.wav",
+          "file": "sounds/fr_anger_01.mp3",
           "label": "Siege is lost",
-          "sha256": "dd47de716faaf56c7c3b318b4b779a1b1875dde2c6988e90d32bb7b140b4e55a"
+          "sha256": "8bc469c7bd453dab9559bc98978ff5ff0275babce85263a0c5394221b3ba1aab"
         },
         {
-          "file": "sounds/fr_anger_02.wav",
+          "file": "sounds/fr_anger_02.mp3",
           "label": "My castle crumbles",
-          "sha256": "66583903b80dcdfa761574813ca921ca48b8ac3a7c45d412a937583e589842cd"
+          "sha256": "d24c3bfac8fb4786b09a84dbea1de66f3291b1c35a289e5578550b381fca5b54"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/fr_help_01.wav",
+          "file": "sounds/fr_help_01.mp3",
           "label": "Need reinforcements",
-          "sha256": "0984a619db6619ee90cb60bce5628f7d052fda0ec6514d4b4afd35363af0d09a"
+          "sha256": "be3ff6c38f8ea5b63363a90bf92f1cbabe91e7346c2d87a2f1d55d991a313833"
         },
         {
-          "file": "sounds/fr_req_01.wav",
+          "file": "sounds/fr_req_01.mp3",
           "label": "Empire has need",
-          "sha256": "495e0c13ed84c46b2d2d46afa0dfd4066a5eae50ae1898f43873abd037ea4b8f"
+          "sha256": "06d2232b6e3923e1311c619477baf709f463b250fe228f1bf3f8e178c0f05807"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/fr_notsent_01.wav",
+          "file": "sounds/fr_notsent_01.mp3",
           "label": "Cannot send supplies",
-          "sha256": "a9252f4b56cb0c747137c29273590957fda07dcdc1337d109e8ae24cc6fee0d1"
+          "sha256": "7a4d6263d984fc0736616c75d2e504c7cd67fe34ead86f6104a0a0e72fd8bc31"
         },
         {
-          "file": "sounds/fr_nohelp_01.wav",
+          "file": "sounds/fr_nohelp_01.mp3",
           "label": "No troops to send",
-          "sha256": "80db6e3987a551372740e23c019b79d72a065e77152ffc907bb93172ca336710"
+          "sha256": "424ba87c9e8169b2a82e16a0b80758f2917d39d9038970de96bfe6875e16e9e4"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/fr_noattack_01.wav",
+          "file": "sounds/fr_noattack_01.mp3",
           "label": "This is madness",
-          "sha256": "ac671613f704a37c62e8a01011c2873826566b6979027676bd98c7349ac037d8"
+          "sha256": "9065044c2dbe1c1d4feb17f19ebf6ab1a51d2f1007a8e16ac8e99fdb2f41d59c"
         },
         {
-          "file": "sounds/fr_noattack_02.wav",
+          "file": "sounds/fr_noattack_02.mp3",
           "label": "Does not fit my plans",
-          "sha256": "1075e702ec3a45bee8cffd219b0c8cb62152cae276d9eba8b6f8763dac7b06f9"
+          "sha256": "6d250cfe2e3e5653ab490b1cdf9f0de0e830f642a4da15b95fb1da4031499529"
         },
         {
-          "file": "sounds/fr_kick_player_01.wav",
+          "file": "sounds/fr_kick_player_01.mp3",
           "label": "No!",
-          "sha256": "c50226d924dfde33b0d8f8e26d82b692ea1875ebe519c1629ffa28bfdb121629"
+          "sha256": "89037c529df40cb0e29e47b5a1f5575cae5ac361653a95c208e8b1bf6f168a91"
         }
       ]
     }

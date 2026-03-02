@@ -1,8 +1,8 @@
 {
   "cesp_version": "1.0",
-  "name": "stronghold-wolf",
+  "name": "wolf",
   "display_name": "The Wolf (Stronghold Crusader)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Marko Jevic",
     "github": "koyev"
@@ -13,103 +13,103 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/wf_add_player.wav",
+          "file": "sounds/wf_add_player.mp3",
           "label": "Growling",
-          "sha256": "769f5862d0b29952c31646b2e62094b62f3c502feb199a3dac6d58ff1f3a1d47"
+          "sha256": "98ea3cc3491b12ab6adafd10cc6cfe9ed2b1f827d0ae26a35e06c02ab49679c5"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/wf_taunt_05.wav",
+          "file": "sounds/wf_taunt_05.mp3",
           "label": "Men approach",
-          "sha256": "add8cec8bfbdc8e0b9500414594f50061f37ff640604f567640761b07fd5afe2"
+          "sha256": "3fda2ef1fa7c704c6755c04fadbdf56f60a532ec25239e56c28350695bf3be65"
         },
         {
-          "file": "sounds/wf_taunt_03.wav",
+          "file": "sounds/wf_taunt_03.mp3",
           "label": "Intend to repay that debt",
-          "sha256": "a3a6a03a21c7983028a66e279fab089c8d1c69acd3aeacff71a4a0a1ef2491bf"
+          "sha256": "e949f35768cea57cb8ea04932b734da1b29fff5bdd251942f3613ca5cccf9b0b"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/wf_vict_01.wav",
+          "file": "sounds/wf_vict_01.mp3",
           "label": "I win, you lose",
-          "sha256": "5508b380775575f292c5b238260db4af41f1143540cfea95aee8717bbf275944"
+          "sha256": "206fe760b703e2d6d260cfd0f559ecc56c872b066ef4d7f59ce70db07085d6e1"
         },
         {
-          "file": "sounds/wf_vict_04.wav",
+          "file": "sounds/wf_vict_04.mp3",
           "label": "Great pleasure to announce you're finished",
-          "sha256": "6fbd67f78f367a4ce0fdc2d5e8d654e635f58f34a77a9cae26ef7cfdf5025b0a"
+          "sha256": "3671e5616d357276991d2dee2757c8ee99cfe1911190cad245589c3651a47e20"
         },
         {
-          "file": "sounds/wf_vict_02.wav",
+          "file": "sounds/wf_vict_02.mp3",
           "label": "Weak and unfit to command",
-          "sha256": "8f6448d81e38b5f01c40b2a0e57012cec52f4cf642dafe486c61fab375158416"
+          "sha256": "51cb53672513d617999dd90d7da75856d1ddb618f18e68e859efdcf1e2ff6a2a"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/wf_anger_01.wav",
+          "file": "sounds/wf_anger_01.mp3",
           "label": "You will pay dearly",
-          "sha256": "2b1e5a3b10f67d105f0da3f94b82e4326ce2ad92e3af185030a07c12e1643d91"
+          "sha256": "7519c9c9483bb3a9039e9c67e8c4f0a1d0d303f3b85b72549a329d08f9698466"
         },
         {
-          "file": "sounds/wf_anger_02.wav",
+          "file": "sounds/wf_anger_02.mp3",
           "label": "Damn you, I will have revenge",
-          "sha256": "8c52e793185927370e38010b30e8f149e95713d77ac00565be77866065053ebc"
+          "sha256": "e414f77da87ff361e9f41f4836c88369a60bdb2cdfcf339604de947287b5e7ad"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/wf_plead_03.wav",
+          "file": "sounds/wf_plead_03.mp3",
           "label": "Underestimated you a little",
-          "sha256": "ed936cc420e41dafba83ab0a487deabd2c71313f5fe39ff43c54eceaab6496b9"
+          "sha256": "af3dbb586b318bccc42695fdd376fcd5712ffc87bf93aeb88a187d5fcc071d0f"
         },
         {
-          "file": "sounds/wf_plead_04.wav",
+          "file": "sounds/wf_plead_04.mp3",
           "label": "You fight better than your father",
-          "sha256": "4f773cc4a359e857c8666a987b3cc54ce7099d91c6c743a6cb6bc2e3a518f30f"
+          "sha256": "fbcaa3279e3f6e0576d28780528a6abb28da566ae012dd87341e90af3257619b"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/wf_plead_02.wav",
+          "file": "sounds/wf_plead_02.mp3",
           "label": "I shall return",
-          "sha256": "c36caacff4e0219d04abd7708bd65ad4783ca17761179c3fe8bfd80596683f75"
+          "sha256": "25678a0dc3e80453371b293350404b8a3a08ac11520103de62f7bafb51ad7a9f"
         },
         {
-          "file": "sounds/wf_anger_03.wav",
+          "file": "sounds/wf_anger_03.mp3",
           "label": "You will feel my bite",
-          "sha256": "ef7d958d3b3b318878f6ffc2c0d90609ce53b73f44717419cb2175850fac39fa"
+          "sha256": "44146fefbca2d1a507a5fbf0408cfacef2a552b50df7c31d865cddbe41776205"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/wf_anger_04.wav",
+          "file": "sounds/wf_anger_04.mp3",
           "label": "Rid me of your presence",
-          "sha256": "5e1213b26cca654a0047d40a2b15149eadeebcf78704b38dd6b4f9675d9b8155"
+          "sha256": "ff1415c6406df7a15845070888a61318d9be1a9d435ae2f153f8d9a53f5cdfdd"
         },
         {
-          "file": "sounds/wf_taunt_08.wav",
+          "file": "sounds/wf_taunt_08.mp3",
           "label": "No match for me, boy",
-          "sha256": "45d1714adfb6bf874222321dbd310ac7d2dd473cbc39c01e890b3d38b591866d"
+          "sha256": "fccc69b3cd899afb5112a775f6070108837bf7dcaa1d1bbd58ce7924180a50f9"
         },
         {
-          "file": "sounds/wf_kick_player.wav",
+          "file": "sounds/wf_kick_player.mp3",
           "label": "Screaming",
-          "sha256": "d99020d009f63482926d82d2d2888de53dc868b6329cb05b85ffda9e5ea3017f"
+          "sha256": "601efe4b0c61c03411551b4d26b0614e735ed0d834192654dadd676873bcf0a0"
         }
       ]
     }
