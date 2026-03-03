@@ -20,38 +20,54 @@ button,
   cursor: url("../assets/cursor/hand.cur"), pointer;
 }
 
-/* ── BUY ME A BEER ─────────────────────────────────────────── */
+/* ── MAYHOLE ANIMATION (top-right corner) ───────────────────── */
 .beer-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: flex-end;
-  padding: 14px 32px 0;
-  pointer-events: none;
-  z-index: 300;
+  display: none;
 }
-.beer-btn {
-  pointer-events: auto;
+.mayhole-anim {
+  width: 100px;
+  height: 100px;
+  background: url("../assets/mayhole/mayhole-sprite.webp") no-repeat 0 0;
+  background-size: 3200px 100px;
+  image-rendering: pixelated;
+  animation: mayhole-play 1.6s steps(32) infinite;
+}
+@keyframes mayhole-play {
+  from { background-position: 0 0; }
+  to   { background-position: -3200px 0; }
+}
+
+/* ── BUY ME A BEER ─────────────────────────────────────────── */
+.beer-cta {
+  position: fixed;
+  top: 14px;
+  left: 24px;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-decoration: none;
+  cursor: url("../assets/cursor/hand.cur"), pointer;
+  transition: color 0.15s, filter 0.15s;
+}
+.beer-cta:hover {
+  color: var(--gold);
+  filter: brightness(1.2);
+}
+.beer-icon {
   display: block;
-  width: 56px;
-  height: 63px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 47px;
   background: url("../assets/hud/tavern-btn.webp") no-repeat center;
   background-size: contain;
   image-rendering: pixelated;
-  cursor: url("../assets/cursor/hand.cur"), pointer;
-  transition: filter 0.15s;
+  transition: background-image 0.1s;
 }
-.beer-btn:hover {
+.beer-cta:hover .beer-icon {
   background-image: url("../assets/hud/tavern-btn-hover.webp");
-  filter: brightness(1.2);
-}
-@media (max-width: 640px) {
-  .beer-bar {
-    justify-content: center;
-    padding: 14px 0 0;
-  }
 }
 
 ::-webkit-scrollbar {
