@@ -11,7 +11,37 @@
 
   <div class="hero-btns">
     <a class="hud-btn hud-btn-alt" href="https://github.com/PeonPing/peon-ping">Install PeonPing</a>
-    <a class="hud-btn hud-btn-alt" href="#lords">Browse Lords</a>
+  </div>
+
+  <!-- ── LORDS CAROUSEL ──────────────────────────────────────── -->
+  <div class="carousel-section">
+    <button class="carousel-arrow carousel-arrow-prev" id="carousel-prev" aria-label="Previous lord"></button>
+    <div class="carousel-viewport">
+      <div class="carousel-track" id="carousel-track">
+        {% for lord in site.lords %}
+        <div class="carousel-card"
+             data-slug="{{ lord.slug }}"
+             data-display="{{ lord.display }}"
+             data-frame-bg="{{ lord.frameBg }}">
+          <div class="portrait-wrap">
+            <div class="portrait-bg" style="background-image:url('{{ lord.frameBg }}')"></div>
+            <img class="portrait-img"
+                 src="https://raw.githubusercontent.com/openpeon-stronghold/{{ lord.slug }}/v1.1.0/icon.png"
+                 alt="{{ lord.display }}"
+                 loading="lazy"
+                 onerror="this.style.opacity=0">
+            <div class="portrait-frame" style="background-image:url('assets/hud/lord-framers/0_0img540.webp')"></div>
+          </div>
+          <div class="card-title">{{ lord.display }}</div>
+          <button class="card-preview-btn" title="Preview voice">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+            Preview
+          </button>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <button class="carousel-arrow carousel-arrow-next" id="carousel-next" aria-label="Next lord"></button>
   </div>
 
   <div class="install-bar">
@@ -22,35 +52,6 @@
     </div>
   </div>
 </section>
-
-<!-- ── LORDS GALLERY ──────────────────────────────────────────── -->
-<div class="section-head" id="lords">
-  <h2>Choose Your Advisor</h2>
-  <p>Click a lord to preview voicelines and install</p>
-</div>
-<div class="grid">
-  {% for lord in site.lords %}
-  <div class="card"
-       data-slug="{{ lord.slug }}"
-       data-display="{{ lord.display }}"
-       data-frame-bg="{{ lord.frameBg }}">
-    <div class="portrait-wrap">
-      <div class="portrait-bg" style="background-image:url('{{ lord.frameBg }}')"></div>
-      <img class="portrait-img"
-           src="https://raw.githubusercontent.com/openpeon-stronghold/{{ lord.slug }}/v1.1.0/icon.png"
-           alt="{{ lord.display }}"
-           loading="lazy"
-           onerror="this.style.opacity=0">
-      <div class="portrait-frame" style="background-image:url('assets/hud/lord-framers/0_0img540.webp')"></div>
-    </div>
-    <div class="card-title">{{ lord.display }}</div>
-    <button class="card-preview-btn" title="Preview voice">
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="6 3 20 12 6 21 6 3"/></svg>
-      Preview
-    </button>
-  </div>
-  {% endfor %}
-</div>
 
 <!-- ── FOOTER ─────────────────────────────────────────────────── -->
 <footer>

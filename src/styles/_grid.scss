@@ -1,11 +1,53 @@
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  padding: 8px 24px 80px;
-  max-width: 1280px;
-  margin: 0 auto;
+/* ── CAROUSEL ──────────────────────────────────────────────── */
+.carousel-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 780px;
+  margin-top: 28px;
 }
 
-@media (max-width: 900px)  { .grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 480px)  { .grid { grid-template-columns: 1fr; } }
+.carousel-viewport {
+  position: relative;
+  flex: 1;
+  height: 215px;
+  overflow: visible;
+}
+
+.carousel-track {
+  position: absolute;
+  inset: 0;
+}
+
+/* ── CAROUSEL ARROWS ───────────────────────────────────────── */
+.carousel-arrow {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border: none;
+  background: transparent no-repeat center;
+  background-size: contain;
+  cursor: url('../assets/cursor/hand.cur'), pointer;
+  image-rendering: pixelated;
+  z-index: 20;
+}
+.carousel-arrow-prev {
+  background-image: url('../assets/hud/scroll/hand-left.webp');
+}
+.carousel-arrow-prev:hover,
+.carousel-arrow-prev:active {
+  background-image: url('../assets/hud/scroll/hand-left-active.webp');
+}
+.carousel-arrow-next {
+  background-image: url('../assets/hud/scroll/hand-right.webp');
+}
+.carousel-arrow-next:hover,
+.carousel-arrow-next:active {
+  background-image: url('../assets/hud/scroll/hand-right-active.webp');
+}
+
+@media (max-width: 480px) {
+  .carousel-arrow { width: 48px; height: 48px; }
+}
