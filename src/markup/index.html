@@ -10,15 +10,15 @@
   <p>16 lords. Every terminal event. Narrated.</p>
 
   <div class="hero-btns">
-    <a class="hud-btn" href="https://github.com/PeonPing/peon-ping">Install PeonPing</a>
-    <a class="hud-btn hud-btn-alt" href="#lords">Browse Lords ↓</a>
+    <a class="hud-btn hud-btn-alt" href="https://github.com/PeonPing/peon-ping">Install PeonPing</a>
+    <a class="hud-btn hud-btn-alt" href="#lords">Browse Lords</a>
   </div>
 
   <div class="install-bar">
     <p>Pick your lord — then run:</p>
     <div class="install-cmd">
       <span id="cmd-text">peon packs install rat</span>
-      <button class="copy-btn" id="bar-copy" title="Copy command"></button>
+      <button class="copy-btn" id="bar-copy" title="Copy command"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg></button>
     </div>
   </div>
 </section>
@@ -44,7 +44,10 @@
       <div class="portrait-frame" style="background-image:url('assets/hud/lord-framers/0_0img540.webp')"></div>
     </div>
     <div class="card-title">{{ lord.display }}</div>
-    <div class="card-slug">{{ lord.slug }}</div>
+    <button class="card-preview-btn" title="Preview voice">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+      Preview
+    </button>
   </div>
   {% endfor %}
 </div>
@@ -82,7 +85,7 @@
     <div class="modal-slug"></div>
     <div class="modal-install">
       <span class="modal-cmd-text"></span>
-      <button class="copy-btn modal-copy-btn" title="Copy"></button>
+      <button class="copy-btn modal-copy-btn" title="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg></button>
     </div>
     <a class="modal-gh" href="#" target="_blank" rel="noopener">
       <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">

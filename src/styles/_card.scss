@@ -59,3 +59,28 @@
   margin-top: 2px;
   text-align: center;
 }
+.card-preview-btn {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 0;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: url('../assets/cursor/hand.cur'), pointer;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.card-preview-btn:hover,
+.card-preview-btn.playing {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(201,168,76,0.07);
+}

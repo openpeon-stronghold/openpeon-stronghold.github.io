@@ -64,7 +64,7 @@ function stopBgAnimation() {
 // Manifest (local, fast)
 const manifestCache = new Map();
 
-async function getManifest(slug) {
+export async function getManifest(slug) {
   if (manifestCache.has(slug)) return manifestCache.get(slug);
   const res = await fetch(`assets/packs/${slug}/openpeon.json`);
   if (!res.ok) throw new Error('not found');
