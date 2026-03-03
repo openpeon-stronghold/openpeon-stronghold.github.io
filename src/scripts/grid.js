@@ -59,6 +59,9 @@ export function initGrid() {
     const diff = dragStartX - x;
     if (Math.abs(diff) > SWIPE_THRESHOLD) {
       wasDrag = true;
+      // On desktop the browser suppresses the click event after a large drag,
+      // so wasDrag would never be cleared by the click handler — auto-clear it.
+      setTimeout(() => { wasDrag = false; }, 100);
       current = wrap(current + (diff > 0 ? 1 : -1));
       update();
     }
