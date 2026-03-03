@@ -7,6 +7,7 @@ export function initGrid() {
 
   let current = 0;
   const total = cards.length;
+  let wasDrag = false;
 
   function wrap(i) {
     return ((i % total) + total) % total;
@@ -39,8 +40,37 @@ export function initGrid() {
     if (e.key === 'ArrowRight') { current = wrap(current + 1); update(); }
   });
 
+  // ── Swipe / drag support ──────────────────────────────────────
+  const viewport = document.querySelector('.carousel-viewport');
+  const SWIPE_THRESHOLD = 40;
+  let dragStartX = null;
+
+  function onSwipeStart(x) { dragStartX = x; }
+
+  function onSwipeEnd(x) {
+    if (dragStartX === null) return;
+    const diff = dragStartX - x;
+    if (Math.abs(diff) > SWIPE_THRESHOLD) {
+      wasDrag = true;
+      current = wrap(current + (diff > 0 ? 1 : -1));
+      update();
+    }
+    dragStartX = null;
+  }
+
+  // Touch
+  viewport.addEventListener('touchstart', e => onSwipeStart(e.touches[0].clientX), { passive: true });
+  viewport.addEventListener('touchend',   e => onSwipeEnd(e.changedTouches[0].clientX));
+
+  // Mouse drag
+  viewport.addEventListener('mousedown', e => onSwipeStart(e.clientX));
+  viewport.addEventListener('mouseup',   e => onSwipeEnd(e.clientX));
+  viewport.addEventListener('mouseleave', () => { dragStartX = null; });
+
+  // ── Card interactions ─────────────────────────────────────────
   cards.forEach((card, i) => {
     card.addEventListener('click', () => {
+      if (wasDrag) { wasDrag = false; return; }
       if (Number(card.dataset.pos) === 0) {
         const { slug, display, frameBg } = card.dataset;
         openModal(slug, display, frameBg);
