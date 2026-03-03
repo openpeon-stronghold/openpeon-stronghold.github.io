@@ -1,4 +1,4 @@
-/* ── CAROUSEL CARD ─────────────────────────────────────────── */
+/* CAROUSEL CARD */
 .carousel-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   width: 160px;
-  cursor: url('../assets/cursor/hand.cur'), pointer;
+  cursor: url("../assets/cursor/hand.cur"), pointer;
 
   /* Carousel positioning */
   position: absolute;
@@ -19,11 +19,15 @@
   opacity: 0;
   pointer-events: none;
   transform: translateX(-50%) scale(0.5);
-  transition: transform .4s ease, opacity .4s ease, border-color .2s, box-shadow .2s;
+  transition:
+    transform 0.4s ease,
+    opacity 0.4s ease,
+    border-color 0.2s,
+    box-shadow 0.2s;
   z-index: 1;
 }
 
-/* ── Entrance animation ──────────────────────────────────────── */
+/* Entrance animation */
 /* Before .carousel-ready: keep all visible positions invisible (higher specificity wins) */
 .carousel-section:not(.carousel-ready) .carousel-card[data-pos="0"],
 .carousel-section:not(.carousel-ready) .carousel-card[data-pos="1"],
@@ -36,21 +40,38 @@
 
 /* After .carousel-ready: animate in with staggered delays */
 .carousel-section.carousel-ready .carousel-card[data-pos="0"] {
-  transition: transform .5s ease .05s, opacity .5s ease .05s, border-color .2s, box-shadow .2s;
+  transition:
+    transform 0.5s ease 0.05s,
+    opacity 0.5s ease 0.05s,
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 .carousel-section.carousel-ready .carousel-card[data-pos="1"],
 .carousel-section.carousel-ready .carousel-card[data-pos="-1"] {
-  transition: transform .5s ease .15s, opacity .5s ease .15s, border-color .2s, box-shadow .2s;
+  transition:
+    transform 0.5s ease 0.15s,
+    opacity 0.5s ease 0.15s,
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 .carousel-section.carousel-ready .carousel-card[data-pos="2"],
 .carousel-section.carousel-ready .carousel-card[data-pos="-2"] {
-  transition: transform .5s ease .25s, opacity .5s ease .25s, border-color .2s, box-shadow .2s;
+  transition:
+    transform 0.5s ease 0.25s,
+    opacity 0.5s ease 0.25s,
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 
-/* ── Active card glow pulse ─────────────────────────────────── */
+/* Active card glow pulse */
 @keyframes gold-pulse {
-  0%, 100% { box-shadow: 0 0 6px rgba(201,168,76,0.12); }
-  50%       { box-shadow: 0 0 22px rgba(201,168,76,0.35); }
+  0%,
+  100% {
+    box-shadow: 0 0 6px rgba(201, 168, 76, 0.12);
+  }
+  50% {
+    box-shadow: 0 0 22px rgba(201, 168, 76, 0.35);
+  }
 }
 
 /* Active card */
@@ -64,11 +85,11 @@
 }
 .carousel-card[data-pos="0"]:hover {
   border-color: var(--gold);
-  box-shadow: 0 0 18px rgba(201,168,76,0.18);
+  box-shadow: 0 0 18px rgba(201, 168, 76, 0.18);
   animation: none;
 }
 .carousel-card[data-pos="0"]:hover .portrait-img {
-  filter: drop-shadow(0 0 6px rgba(201,168,76,0.5));
+  filter: drop-shadow(0 0 6px rgba(201, 168, 76, 0.5));
 }
 
 /* Adjacent cards */
@@ -119,7 +140,7 @@
   display: none;
 }
 
-/* ── PORTRAIT COMPONENTS ───────────────────────────────────── */
+/* PORTRAIT COMPONENTS */
 .portrait-wrap {
   position: relative;
   width: 96px;
@@ -134,11 +155,13 @@
 }
 .portrait-img {
   position: absolute;
-  top: 12px; left: 12px;
-  width: 72px; height: 72px;
+  top: 12px;
+  left: 12px;
+  width: 72px;
+  height: 72px;
   image-rendering: pixelated;
   object-fit: cover;
-  transition: filter .2s;
+  transition: filter 0.2s;
   pointer-events: none;
 }
 .portrait-frame {
@@ -149,14 +172,14 @@
   pointer-events: none;
 }
 
-/* "Click to explore" hint — only visible on active card */
+/* "Click to explore" hint only visible on active card */
 .card-explore-hint {
   font-size: 0.65rem;
   color: var(--gold-dim);
   letter-spacing: 0.07em;
   margin-top: 4px;
   opacity: 0;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
 .carousel-card[data-pos="0"] .card-explore-hint {
   opacity: 1;
@@ -178,16 +201,25 @@
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  cursor: url('../assets/cursor/hand.cur'), pointer;
-  transition: color .15s, border-color .15s, background .15s;
+  cursor: url("../assets/cursor/hand.cur"), pointer;
+  transition:
+    color 0.15s,
+    border-color 0.15s,
+    background 0.15s;
 }
 .card-preview-btn:hover,
 .card-preview-btn.playing {
   color: var(--gold);
   border-color: var(--gold-dim);
-  background: rgba(201,168,76,0.07);
+  background: rgba(201, 168, 76, 0.07);
 }
 
-.preview-pause-icon { display: none; }
-.card-preview-btn.playing .preview-play-icon  { display: none; }
-.card-preview-btn.playing .preview-pause-icon { display: inline-flex; }
+.preview-pause-icon {
+  display: none;
+}
+.card-preview-btn.playing .preview-play-icon {
+  display: none;
+}
+.card-preview-btn.playing .preview-pause-icon {
+  display: inline-flex;
+}

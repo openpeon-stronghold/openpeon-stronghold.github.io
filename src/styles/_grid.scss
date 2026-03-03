@@ -1,11 +1,11 @@
-/* ── CAROUSEL ──────────────────────────────────────────────── */
+/* CAROUSEL */
 .carousel-section {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   max-width: 780px;
-  margin-top: 28px;
+  margin-top: 12px;
 }
 
 .carousel-viewport {
@@ -21,9 +21,8 @@
   inset: 0;
 }
 
-/* ── POSITION COUNTER ───────────────────────────────────────── */
+/* POSITION COUNTER */
 .carousel-counter {
-  margin-top: 12px;
   font-family: var(--mono);
   font-size: 0.75rem;
   color: var(--gold-dim);
@@ -31,7 +30,7 @@
   letter-spacing: 0.08em;
 }
 
-/* ── LORD NAME DISPLAY ──────────────────────────────────────── */
+/* LORD NAME DISPLAY */
 .lord-name-display {
   height: 2.4rem;
   margin-top: 18px;
@@ -40,9 +39,9 @@
   color: var(--gold);
   text-align: center;
   letter-spacing: 0.06em;
-  text-shadow: 0 0 20px rgba(201,168,76,0.25);
+  text-shadow: 0 0 20px rgba(201, 168, 76, 0.25);
   opacity: 0;
-  transition: opacity .25s ease;
+  transition: opacity 0.25s ease;
 }
 .lord-name-display.lord-name-visible {
   opacity: 1;
