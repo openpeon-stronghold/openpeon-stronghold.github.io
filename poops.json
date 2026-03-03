@@ -28,8 +28,8 @@
     "out": "dist",
     "options": {
       "site": {
-        "title": "Stronghold Crusader Packs — PeonPing",
-        "description": "16 lords. Every terminal event. Narrated.",
+        "title": "PeonPing Stronghold Crusader Voice Packs — All 16 Lords",
+        "description": "Browse, preview, and install all 16 Stronghold Crusader lord voice packs for PeonPing. Every terminal event narrated — builds, errors, approvals, and more.",
         "url": "https://openpeon-stronghold.github.io",
         "lords": [
           { "slug": "abbot",     "display": "The Abbot",         "frameBg": "assets/hud/lord-frame-bg/portrait-bg-abbot.webp" },
