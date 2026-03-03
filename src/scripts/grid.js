@@ -25,16 +25,6 @@ export function initGrid() {
 
   update();
 
-  document.getElementById('carousel-prev').addEventListener('click', () => {
-    current = wrap(current - 1);
-    update();
-  });
-
-  document.getElementById('carousel-next').addEventListener('click', () => {
-    current = wrap(current + 1);
-    update();
-  });
-
   document.addEventListener('keydown', e => {
     if (e.key === 'ArrowLeft')  { current = wrap(current - 1); update(); }
     if (e.key === 'ArrowRight') { current = wrap(current + 1); update(); }
