@@ -78,13 +78,12 @@ export function initGrid() {
   cards.forEach((card, i) => {
     card.addEventListener('click', () => {
       if (wasDrag) { wasDrag = false; return; }
-      if (Number(card.dataset.pos) === 0) {
-        const { slug, display, frameBg } = card.dataset;
-        openModal(slug, display, frameBg);
-      } else {
+      if (Number(card.dataset.pos) !== 0) {
         current = i;
         update();
       }
+      const { slug, display, frameBg } = card.dataset;
+      openModal(slug, display, frameBg);
     });
 
     const previewBtn = card.querySelector('.card-preview-btn');
