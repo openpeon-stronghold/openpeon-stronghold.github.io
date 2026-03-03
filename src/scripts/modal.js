@@ -22,7 +22,7 @@ function lucide(key) {
 const BRIEFING_FRAMES = 13;
 const BRIEFING_FPS    = 5;
 const briefingUrls    = Array.from({ length: BRIEFING_FRAMES },
-  (_, i) => `assets/images/briefing_back${i}.png`);
+  (_, i) => `assets/images/modal-frame-${String(i).padStart(2,'0')}.webp`);
 
 let bgFrame             = 0;
 let bgInterval          = null;
