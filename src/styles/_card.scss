@@ -187,3 +187,7 @@
   border-color: var(--gold-dim);
   background: rgba(201,168,76,0.07);
 }
+
+.preview-pause-icon { display: none; }
+.card-preview-btn.playing .preview-play-icon  { display: none; }
+.card-preview-btn.playing .preview-pause-icon { display: inline-flex; }

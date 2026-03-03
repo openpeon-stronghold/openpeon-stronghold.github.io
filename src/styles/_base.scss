@@ -27,19 +27,24 @@ button,
 .mayhole-anim {
   width: 100px;
   height: 100px;
-  background: url("../assets/mayhole/mayhole-sprite.webp") no-repeat 0 0;
+  background: url("../assets/mayhole/mayhole-sprite.webp") no-repeat 0
+    0;
   background-size: 3200px 100px;
   image-rendering: pixelated;
   animation: mayhole-play 1.6s steps(32) infinite;
 }
 @keyframes mayhole-play {
-  from { background-position: 0 0; }
-  to   { background-position: -3200px 0; }
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -3200px 0;
+  }
 }
 
 /* ── BUY ME A BEER ─────────────────────────────────────────── */
 .beer-cta {
-  position: fixed;
+  position: absolute;
   top: 14px;
   left: 24px;
   z-index: 300;
@@ -50,7 +55,9 @@ button,
   color: var(--text-dim);
   text-decoration: none;
   cursor: url("../assets/cursor/hand.cur"), pointer;
-  transition: color 0.15s, filter 0.15s;
+  transition:
+    color 0.15s,
+    filter 0.15s;
 }
 .beer-cta:hover {
   color: var(--gold);
