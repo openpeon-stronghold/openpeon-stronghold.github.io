@@ -13,6 +13,9 @@ export function initGrid() {
     return ((i % total) + total) % total;
   }
 
+  const nameDisplay = document.getElementById('lord-name-display');
+  const counter = document.getElementById('carousel-counter');
+
   function update() {
     const half = Math.floor(total / 2);
     cards.forEach((card, i) => {
@@ -20,10 +23,24 @@ export function initGrid() {
       card.dataset.pos = String(pos);
     });
     const slug = cards[current].dataset.slug;
+    const display = cards[current].dataset.display;
     document.getElementById('cmd-text').textContent = `peon packs install ${slug}`;
+    counter.textContent = `${current + 1} / ${total}`;
+
+    // Fade-update the lord name display
+    nameDisplay.classList.remove('lord-name-visible');
+    requestAnimationFrame(() => {
+      nameDisplay.textContent = display;
+      nameDisplay.classList.add('lord-name-visible');
+    });
   }
 
   update();
+
+  // Trigger entrance animation after first paint
+  requestAnimationFrame(() => {
+    document.querySelector('.carousel-section').classList.add('carousel-ready');
+  });
 
   document.addEventListener('keydown', e => {
     if (e.key === 'ArrowLeft')  { current = wrap(current - 1); update(); }

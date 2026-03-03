@@ -13,11 +13,19 @@ a, button, .card {
 }
 
 /* ── BUY ME A BEER ─────────────────────────────────────────── */
-.beer-btn {
-  position: fixed;
-  top: 14px;
-  right: 16px;
+.beer-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px 16px 0;
+  pointer-events: none;
   z-index: 300;
+}
+.beer-btn {
+  pointer-events: auto;
   display: block;
   width: 56px;
   height: 63px;
@@ -30,6 +38,12 @@ a, button, .card {
 .beer-btn:hover {
   background-image: url('../assets/hud/tavern-hover.png');
   filter: brightness(1.2);
+}
+@media (max-width: 640px) {
+  .beer-bar {
+    justify-content: center;
+    padding: 14px 0 0;
+  }
 }
 
 ::-webkit-scrollbar { width: 6px; }

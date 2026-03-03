@@ -23,6 +23,36 @@
   z-index: 1;
 }
 
+/* ── Entrance animation ──────────────────────────────────────── */
+/* Before .carousel-ready: keep all visible positions invisible (higher specificity wins) */
+.carousel-section:not(.carousel-ready) .carousel-card[data-pos="0"],
+.carousel-section:not(.carousel-ready) .carousel-card[data-pos="1"],
+.carousel-section:not(.carousel-ready) .carousel-card[data-pos="-1"],
+.carousel-section:not(.carousel-ready) .carousel-card[data-pos="2"],
+.carousel-section:not(.carousel-ready) .carousel-card[data-pos="-2"] {
+  opacity: 0;
+  transition: none;
+}
+
+/* After .carousel-ready: animate in with staggered delays */
+.carousel-section.carousel-ready .carousel-card[data-pos="0"] {
+  transition: transform .5s ease .05s, opacity .5s ease .05s, border-color .2s, box-shadow .2s;
+}
+.carousel-section.carousel-ready .carousel-card[data-pos="1"],
+.carousel-section.carousel-ready .carousel-card[data-pos="-1"] {
+  transition: transform .5s ease .15s, opacity .5s ease .15s, border-color .2s, box-shadow .2s;
+}
+.carousel-section.carousel-ready .carousel-card[data-pos="2"],
+.carousel-section.carousel-ready .carousel-card[data-pos="-2"] {
+  transition: transform .5s ease .25s, opacity .5s ease .25s, border-color .2s, box-shadow .2s;
+}
+
+/* ── Active card glow pulse ─────────────────────────────────── */
+@keyframes gold-pulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(201,168,76,0.12); }
+  50%       { box-shadow: 0 0 22px rgba(201,168,76,0.35); }
+}
+
 /* Active card */
 .carousel-card[data-pos="0"] {
   opacity: 1;
@@ -30,10 +60,12 @@
   transform: translateX(-50%) scale(1);
   z-index: 10;
   border-color: var(--gold-dim);
+  animation: gold-pulse 2.5s ease-in-out infinite;
 }
 .carousel-card[data-pos="0"]:hover {
   border-color: var(--gold);
   box-shadow: 0 0 18px rgba(201,168,76,0.18);
+  animation: none;
 }
 .carousel-card[data-pos="0"]:hover .portrait-img {
   filter: drop-shadow(0 0 6px rgba(201,168,76,0.5));
@@ -107,6 +139,7 @@
   image-rendering: pixelated;
   object-fit: cover;
   transition: filter .2s;
+  pointer-events: none;
 }
 .portrait-frame {
   position: absolute;
@@ -122,6 +155,20 @@
   color: var(--gold);
   text-align: center;
 }
+
+/* "Click to explore" hint — only visible on active card */
+.card-explore-hint {
+  font-size: 0.65rem;
+  color: var(--gold-dim);
+  letter-spacing: 0.07em;
+  margin-top: 4px;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.carousel-card[data-pos="0"] .card-explore-hint {
+  opacity: 1;
+}
+
 .card-preview-btn {
   margin-top: 10px;
   width: 100%;

@@ -1,5 +1,6 @@
 import { playSound, stopAudio } from './audio.js';
 import { CAT_LABELS } from './lords.js';
+import { flashCopy } from './clipboard.js';
 
 // Lucide icon paths (MIT, lucide.dev)
 const CAT_ICONS = {
@@ -125,11 +126,9 @@ export async function openModal(slug, display, frameBg) {
 
   // Copy button (must query after append since frag is consumed)
   body.querySelector('.modal-copy-btn').addEventListener('click', () => {
-    const text = body.querySelector('.modal-cmd-text').textContent;
-    navigator.clipboard.writeText(text).catch(() => {});
     const btn = body.querySelector('.modal-copy-btn');
-    btn.classList.add('flash');
-    setTimeout(() => btn.classList.remove('flash'), 350);
+    navigator.clipboard.writeText(body.querySelector('.modal-cmd-text').textContent).catch(() => {});
+    flashCopy(btn);
   });
 
   document.getElementById('modal-backdrop').classList.add('open');

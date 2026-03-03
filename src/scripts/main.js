@@ -1,6 +1,7 @@
 import { initFavicon } from './favicon.js';
 import { initGrid }    from './grid.js';
 import { initModal }   from './modal.js';
+import { flashCopy }   from './clipboard.js';
 
 initFavicon();
 initGrid();
@@ -8,11 +9,8 @@ initModal();
 
 // Install bar copy button
 document.getElementById('bar-copy').addEventListener('click', () => {
-  const text = document.getElementById('cmd-text').textContent;
-  navigator.clipboard.writeText(text).catch(() => {});
-  const btn = document.getElementById('bar-copy');
-  btn.classList.add('flash');
-  setTimeout(() => btn.classList.remove('flash'), 350);
+  navigator.clipboard.writeText(document.getElementById('cmd-text').textContent).catch(() => {});
+  flashCopy(document.getElementById('bar-copy'));
 });
 
 // Loading screen
