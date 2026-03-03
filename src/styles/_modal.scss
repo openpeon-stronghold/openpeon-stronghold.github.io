@@ -10,6 +10,7 @@
   padding: 16px;
 }
 .modal-backdrop.open { display: flex; }
+.modal-backdrop.open ~ .beer-bar { display: none; }
 
 .modal-panel {
   position: relative;
